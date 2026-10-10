@@ -423,3 +423,8 @@ follows the LB-UNet release.
   year    = {2026}
 }
 ```
+
+## License
+
+MIT (see `LICENSE`), except for the third-party model files listed in Section 10, which keep the
+licences of their original repositories.
