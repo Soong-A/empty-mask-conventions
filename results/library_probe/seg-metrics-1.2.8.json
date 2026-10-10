@@ -1,0 +1,98 @@
+{
+ "library": "seg-metrics",
+ "version": "1.2.8",
+ "python": "3.11.15",
+ "numpy": "2.4.6",
+ "results": {
+  "dice": {
+   "both_empty": {
+    "value": 1.0,
+    "warnings": []
+   },
+   "ref_empty": {
+    "value": 0.0,
+    "warnings": []
+   },
+   "pred_empty": {
+    "value": 0.0,
+    "warnings": []
+   },
+   "control": {
+    "value": 0.75,
+    "warnings": []
+   }
+  },
+  "jaccard": {
+   "both_empty": {
+    "value": 1.0,
+    "warnings": []
+   },
+   "ref_empty": {
+    "value": 0.0,
+    "warnings": []
+   },
+   "pred_empty": {
+    "value": 0.0,
+    "warnings": []
+   },
+   "control": {
+    "value": 0.6,
+    "warnings": []
+   }
+  },
+  "hd": {
+   "both_empty": {
+    "value": 0.0,
+    "warnings": []
+   },
+   "ref_empty": {
+    "value": 0.0,
+    "warnings": []
+   },
+   "pred_empty": {
+    "value": 0.0,
+    "warnings": []
+   },
+   "control": {
+    "value": 3.0,
+    "warnings": []
+   }
+  },
+  "hd95": {
+   "both_empty": {
+    "value": 0.0,
+    "warnings": []
+   },
+   "ref_empty": {
+    "value": 0.0,
+    "warnings": []
+   },
+   "pred_empty": {
+    "value": 0.0,
+    "warnings": []
+   },
+   "control": {
+    "value": 3.0,
+    "warnings": []
+   }
+  },
+  "msd": {
+   "both_empty": {
+    "value": 0.0,
+    "warnings": []
+   },
+   "ref_empty": {
+    "value": 0.0,
+    "warnings": []
+   },
+   "pred_empty": {
+    "value": 0.0,
+    "warnings": []
+   },
+   "control": {
+    "value": 1.5,
+    "warnings": []
+   }
+  }
+ }
+}

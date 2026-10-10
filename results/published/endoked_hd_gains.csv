@@ -1,0 +1,10 @@
+model,hd_gain
+FCBFormer,95.52
+PIDNet,82.95
+U-Net,51.46
+U-Net++,42.60
+DCRNet,32.84
+Polyp-PVT,28.05
+Polyp-CASCADE,11.92
+LDNet,5.47
+C2FNet,2.01

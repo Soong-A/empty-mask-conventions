@@ -1,0 +1,22 @@
+# Python >= 3.10. Install PyTorch and torchvision for your platform first (https://pytorch.org);
+# the versions below are those of the clean environment in which every command of the README
+# was last run (CPU build; the trained checkpoints were evaluated with torch 2.5.1 + CUDA 12.1).
+torch>=2.1
+torchvision>=0.16
+numpy==2.5.2
+scipy==1.18.1
+pandas==3.0.6
+opencv-python==5.0.0.93
+Pillow==12.3.0
+matplotlib==3.10.8   # 3.11 changes text metrics and breaks the Figure 2 layout search
+timm==1.0.30         # UNeXt-S, EGE-UNet, MALUNet, LB-UNet building blocks
+pytest==9.1.1
+
+# Figure 1 and the metric-library probe (Table 3)
+monai==1.5.2
+medpy==0.5.2         # MedPy 0.4.0 needs its own environment (see README)
+scikit-image==0.26.0
+seg-metrics==1.2.8
+
+# SIIM-ACR preparation from the DICOM release
+pydicom==3.0.2

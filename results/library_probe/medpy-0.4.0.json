@@ -1,0 +1,148 @@
+{
+ "library": "medpy",
+ "version": "0.4.0",
+ "python": "3.9.25",
+ "numpy": "1.23.5",
+ "results": {
+  "dc": {
+   "both_empty": {
+    "value": 0.0,
+    "warnings": [
+     "`np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar "
+    ]
+   },
+   "ref_empty": {
+    "value": 0.0,
+    "warnings": [
+     "`np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar "
+    ]
+   },
+   "pred_empty": {
+    "value": 0.0,
+    "warnings": [
+     "`np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar "
+    ]
+   },
+   "control": {
+    "value": 0.75,
+    "warnings": [
+     "`np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar "
+    ]
+   }
+  },
+  "jc": {
+   "both_empty": {
+    "raised": "ZeroDivisionError",
+    "message": "float division by zero",
+    "warnings": [
+     "`np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar "
+    ]
+   },
+   "ref_empty": {
+    "value": 0.0,
+    "warnings": [
+     "`np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar "
+    ]
+   },
+   "pred_empty": {
+    "value": 0.0,
+    "warnings": [
+     "`np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar "
+    ]
+   },
+   "control": {
+    "value": 0.6,
+    "warnings": [
+     "`np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar "
+    ]
+   }
+  },
+  "hd": {
+   "both_empty": {
+    "raised": "RuntimeError",
+    "message": "The first supplied array does not contain any binary object.",
+    "warnings": [
+     "`np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar "
+    ]
+   },
+   "ref_empty": {
+    "raised": "RuntimeError",
+    "message": "The second supplied array does not contain any binary object.",
+    "warnings": [
+     "`np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar "
+    ]
+   },
+   "pred_empty": {
+    "raised": "RuntimeError",
+    "message": "The first supplied array does not contain any binary object.",
+    "warnings": [
+     "`np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar "
+    ]
+   },
+   "control": {
+    "value": 3.0,
+    "warnings": [
+     "`np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar "
+    ]
+   }
+  },
+  "hd95": {
+   "both_empty": {
+    "raised": "RuntimeError",
+    "message": "The first supplied array does not contain any binary object.",
+    "warnings": [
+     "`np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar "
+    ]
+   },
+   "ref_empty": {
+    "raised": "RuntimeError",
+    "message": "The second supplied array does not contain any binary object.",
+    "warnings": [
+     "`np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar "
+    ]
+   },
+   "pred_empty": {
+    "raised": "RuntimeError",
+    "message": "The first supplied array does not contain any binary object.",
+    "warnings": [
+     "`np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar "
+    ]
+   },
+   "control": {
+    "value": 3.0,
+    "warnings": [
+     "`np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar "
+    ]
+   }
+  },
+  "asd": {
+   "both_empty": {
+    "raised": "RuntimeError",
+    "message": "The first supplied array does not contain any binary object.",
+    "warnings": [
+     "`np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar "
+    ]
+   },
+   "ref_empty": {
+    "raised": "RuntimeError",
+    "message": "The second supplied array does not contain any binary object.",
+    "warnings": [
+     "`np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar "
+    ]
+   },
+   "pred_empty": {
+    "raised": "RuntimeError",
+    "message": "The first supplied array does not contain any binary object.",
+    "warnings": [
+     "`np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar "
+    ]
+   },
+   "control": {
+    "value": 1.5,
+    "warnings": [
+     "`np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar "
+    ]
+   }
+  }
+ }
+}

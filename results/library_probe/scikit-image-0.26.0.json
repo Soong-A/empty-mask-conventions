@@ -1,0 +1,44 @@
+{
+ "library": "scikit-image",
+ "version": "0.26.0",
+ "python": "3.11.15",
+ "numpy": "2.4.6",
+ "results": {
+  "hausdorff_distance (standard)": {
+   "both_empty": {
+    "value": 0.0,
+    "warnings": []
+   },
+   "ref_empty": {
+    "value": "+Inf",
+    "warnings": []
+   },
+   "pred_empty": {
+    "value": "+Inf",
+    "warnings": []
+   },
+   "control": {
+    "value": 3.0,
+    "warnings": []
+   }
+  },
+  "hausdorff_distance (modified)": {
+   "both_empty": {
+    "value": 0.0,
+    "warnings": []
+   },
+   "ref_empty": {
+    "value": "+Inf",
+    "warnings": []
+   },
+   "pred_empty": {
+    "value": "+Inf",
+    "warnings": []
+   },
+   "control": {
+    "value": 0.5,
+    "warnings": []
+   }
+  }
+ }
+}

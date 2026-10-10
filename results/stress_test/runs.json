@@ -1,0 +1,110 @@
+{
+ "egeunet": {
+  "run": "egeunet_siim_seed42_probe_E30_20260806_233854",
+  "parameters": 53374,
+  "best_epoch": 1,
+  "lr": 0.001,
+  "batch_dice": false,
+  "epochs": 30,
+  "T_max": 111,
+  "split_composition": {
+   "train": {
+    "n": 7471,
+    "n_empty": 5807,
+    "n_lesion": 1664
+   },
+   "val": {
+    "n": 1069,
+    "n_empty": 830,
+    "n_lesion": 239
+   },
+   "test": {
+    "n": 2135,
+    "n_empty": 1659,
+    "n_lesion": 476
+   }
+  },
+  "loss": "GT_BceDiceLoss_NoKP: main head BceDice(1,2) + 5 deep-supervision heads BceDice(0.5,1)(0.1~0.5)"
+ },
+ "lbunet": {
+  "run": "lbunet_siim_seed42_probe_E30_20260806_233917",
+  "parameters": 55865,
+  "best_epoch": 7,
+  "lr": 0.001,
+  "batch_dice": false,
+  "epochs": 30,
+  "T_max": 111,
+  "split_composition": {
+   "train": {
+    "n": 7471,
+    "n_empty": 5807,
+    "n_lesion": 1664
+   },
+   "val": {
+    "n": 1069,
+    "n_empty": 830,
+    "n_lesion": 239
+   },
+   "test": {
+    "n": 2135,
+    "n_empty": 1659,
+    "n_lesion": 476
+   }
+  },
+  "loss": "GT_BceDiceLoss(1,1): main head BceDice(1,2) + 5 deep-supervision heads (0.1~0.5) + 3 boundary heads (0.1~0.3)"
+ },
+ "mobileunet": {
+  "run": "mobileunet_siim_seed42_probe_E30_20260806_233930",
+  "parameters": 13341349,
+  "best_epoch": 1,
+  "lr": 0.001,
+  "batch_dice": false,
+  "epochs": 30,
+  "T_max": 111,
+  "split_composition": {
+   "train": {
+    "n": 7471,
+    "n_empty": 5807,
+    "n_lesion": 1664
+   },
+   "val": {
+    "n": 1069,
+    "n_empty": 830,
+    "n_lesion": 239
+   },
+   "test": {
+    "n": 2135,
+    "n_empty": 1659,
+    "n_lesion": 476
+   }
+  },
+  "loss": "PlainBceDiceLoss(1,1): single main head BCE+Dice"
+ },
+ "unetpp": {
+  "run": "unetpp_siim_seed42_probe_E30_20260806_233923",
+  "parameters": 9163428,
+  "best_epoch": 1,
+  "lr": 0.001,
+  "batch_dice": false,
+  "epochs": 30,
+  "T_max": 111,
+  "split_composition": {
+   "train": {
+    "n": 7471,
+    "n_empty": 5807,
+    "n_lesion": 1664
+   },
+   "val": {
+    "n": 1069,
+    "n_empty": 830,
+    "n_lesion": 239
+   },
+   "test": {
+    "n": 2135,
+    "n_empty": 1659,
+    "n_lesion": 476
+   }
+  },
+  "loss": "DS_BceDiceLoss: X^{0,1..4} four heads, equal-weight BceDice(1,1)"
+ }
+}

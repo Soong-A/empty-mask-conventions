@@ -1,0 +1,214 @@
+{
+ "library": "monai",
+ "version": "1.5.2",
+ "python": "3.9.25",
+ "numpy": "1.26.4",
+ "results": {
+  "HD95": {
+   "both_empty": {
+    "value": {
+     "per_case": "NaN",
+     "aggregate": 0.0,
+     "not_nans": 0.0
+    },
+    "warnings": [
+     "monai.metrics.utils get_mask_edges:always_return_as_numpy: Argument `always_return_as_numpy` has been deprecated since version 1.5.0. It will be removed in version 1.7.0. The option is removed and the",
+     "the ground truth of class 0 is all 0, this may result in nan/inf distance.",
+     "the prediction of class 0 is all 0, this may result in nan/inf distance."
+    ]
+   },
+   "ref_empty": {
+    "value": {
+     "per_case": "NaN",
+     "aggregate": 0.0,
+     "not_nans": 0.0
+    },
+    "warnings": [
+     "monai.metrics.utils get_mask_edges:always_return_as_numpy: Argument `always_return_as_numpy` has been deprecated since version 1.5.0. It will be removed in version 1.7.0. The option is removed and the",
+     "the ground truth of class 0 is all 0, this may result in nan/inf distance."
+    ]
+   },
+   "pred_empty": {
+    "value": {
+     "per_case": "NaN",
+     "aggregate": 0.0,
+     "not_nans": 0.0
+    },
+    "warnings": [
+     "monai.metrics.utils get_mask_edges:always_return_as_numpy: Argument `always_return_as_numpy` has been deprecated since version 1.5.0. It will be removed in version 1.7.0. The option is removed and the",
+     "the prediction of class 0 is all 0, this may result in nan/inf distance."
+    ]
+   },
+   "control": {
+    "value": {
+     "per_case": 3.0,
+     "aggregate": 3.0,
+     "not_nans": 1.0
+    },
+    "warnings": [
+     "monai.metrics.utils get_mask_edges:always_return_as_numpy: Argument `always_return_as_numpy` has been deprecated since version 1.5.0. It will be removed in version 1.7.0. The option is removed and the"
+    ]
+   }
+  },
+  "HD": {
+   "both_empty": {
+    "value": {
+     "per_case": "NaN",
+     "aggregate": 0.0,
+     "not_nans": 0.0
+    },
+    "warnings": [
+     "monai.metrics.utils get_mask_edges:always_return_as_numpy: Argument `always_return_as_numpy` has been deprecated since version 1.5.0. It will be removed in version 1.7.0. The option is removed and the",
+     "the ground truth of class 0 is all 0, this may result in nan/inf distance.",
+     "the prediction of class 0 is all 0, this may result in nan/inf distance."
+    ]
+   },
+   "ref_empty": {
+    "value": {
+     "per_case": "+Inf",
+     "aggregate": "+Inf",
+     "not_nans": 1.0
+    },
+    "warnings": [
+     "monai.metrics.utils get_mask_edges:always_return_as_numpy: Argument `always_return_as_numpy` has been deprecated since version 1.5.0. It will be removed in version 1.7.0. The option is removed and the",
+     "the ground truth of class 0 is all 0, this may result in nan/inf distance."
+    ]
+   },
+   "pred_empty": {
+    "value": {
+     "per_case": "+Inf",
+     "aggregate": "+Inf",
+     "not_nans": 1.0
+    },
+    "warnings": [
+     "monai.metrics.utils get_mask_edges:always_return_as_numpy: Argument `always_return_as_numpy` has been deprecated since version 1.5.0. It will be removed in version 1.7.0. The option is removed and the",
+     "the prediction of class 0 is all 0, this may result in nan/inf distance."
+    ]
+   },
+   "control": {
+    "value": {
+     "per_case": 3.0,
+     "aggregate": 3.0,
+     "not_nans": 1.0
+    },
+    "warnings": [
+     "monai.metrics.utils get_mask_edges:always_return_as_numpy: Argument `always_return_as_numpy` has been deprecated since version 1.5.0. It will be removed in version 1.7.0. The option is removed and the"
+    ]
+   }
+  },
+  "ASD": {
+   "both_empty": {
+    "value": {
+     "per_case": "NaN",
+     "aggregate": 0.0,
+     "not_nans": 0.0
+    },
+    "warnings": [
+     "monai.metrics.utils get_mask_edges:always_return_as_numpy: Argument `always_return_as_numpy` has been deprecated since version 1.5.0. It will be removed in version 1.7.0. The option is removed and the",
+     "the ground truth of class 0 is all 0, this may result in nan/inf distance.",
+     "the prediction of class 0 is all 0, this may result in nan/inf distance."
+    ]
+   },
+   "ref_empty": {
+    "value": {
+     "per_case": "+Inf",
+     "aggregate": "+Inf",
+     "not_nans": 1.0
+    },
+    "warnings": [
+     "monai.metrics.utils get_mask_edges:always_return_as_numpy: Argument `always_return_as_numpy` has been deprecated since version 1.5.0. It will be removed in version 1.7.0. The option is removed and the",
+     "the ground truth of class 0 is all 0, this may result in nan/inf distance."
+    ]
+   },
+   "pred_empty": {
+    "value": {
+     "per_case": "+Inf",
+     "aggregate": "+Inf",
+     "not_nans": 1.0
+    },
+    "warnings": [
+     "monai.metrics.utils get_mask_edges:always_return_as_numpy: Argument `always_return_as_numpy` has been deprecated since version 1.5.0. It will be removed in version 1.7.0. The option is removed and the",
+     "the prediction of class 0 is all 0, this may result in nan/inf distance."
+    ]
+   },
+   "control": {
+    "value": {
+     "per_case": 1.5,
+     "aggregate": 1.5,
+     "not_nans": 1.0
+    },
+    "warnings": [
+     "monai.metrics.utils get_mask_edges:always_return_as_numpy: Argument `always_return_as_numpy` has been deprecated since version 1.5.0. It will be removed in version 1.7.0. The option is removed and the"
+    ]
+   }
+  },
+  "Dice (default)": {
+   "both_empty": {
+    "value": {
+     "per_case": "NaN",
+     "aggregate": 0.0,
+     "not_nans": 0.0
+    },
+    "warnings": []
+   },
+   "ref_empty": {
+    "value": {
+     "per_case": "NaN",
+     "aggregate": 0.0,
+     "not_nans": 0.0
+    },
+    "warnings": []
+   },
+   "pred_empty": {
+    "value": {
+     "per_case": 0.0,
+     "aggregate": 0.0,
+     "not_nans": 1.0
+    },
+    "warnings": []
+   },
+   "control": {
+    "value": {
+     "per_case": 0.75,
+     "aggregate": 0.75,
+     "not_nans": 1.0
+    },
+    "warnings": []
+   }
+  },
+  "Dice (ignore_empty=False)": {
+   "both_empty": {
+    "value": {
+     "per_case": 1.0,
+     "aggregate": 1.0,
+     "not_nans": 1.0
+    },
+    "warnings": []
+   },
+   "ref_empty": {
+    "value": {
+     "per_case": 0.0,
+     "aggregate": 0.0,
+     "not_nans": 1.0
+    },
+    "warnings": []
+   },
+   "pred_empty": {
+    "value": {
+     "per_case": 0.0,
+     "aggregate": 0.0,
+     "not_nans": 1.0
+    },
+    "warnings": []
+   },
+   "control": {
+    "value": {
+     "per_case": 0.75,
+     "aggregate": 0.75,
+     "not_nans": 1.0
+    },
+    "warnings": []
+   }
+  }
+ }
+}

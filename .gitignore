@@ -1,0 +1,8 @@
+# generated or local; not part of the repository
+outputs/
+datasets/
+predictions/
+runs/
+__pycache__/
+*.pth
+.pytest_cache/

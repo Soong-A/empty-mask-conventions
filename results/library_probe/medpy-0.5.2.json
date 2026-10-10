@@ -1,0 +1,107 @@
+{
+ "library": "medpy",
+ "version": "0.5.2",
+ "python": "3.11.15",
+ "numpy": "1.26.4",
+ "results": {
+  "dc": {
+   "both_empty": {
+    "value": 1.0,
+    "warnings": []
+   },
+   "ref_empty": {
+    "value": 0.0,
+    "warnings": []
+   },
+   "pred_empty": {
+    "value": 0.0,
+    "warnings": []
+   },
+   "control": {
+    "value": 0.75,
+    "warnings": []
+   }
+  },
+  "jc": {
+   "both_empty": {
+    "value": 1.0,
+    "warnings": []
+   },
+   "ref_empty": {
+    "value": 0.0,
+    "warnings": []
+   },
+   "pred_empty": {
+    "value": 0.0,
+    "warnings": []
+   },
+   "control": {
+    "value": 0.6,
+    "warnings": []
+   }
+  },
+  "hd": {
+   "both_empty": {
+    "raised": "RuntimeError",
+    "message": "The first supplied array does not contain any binary object.",
+    "warnings": []
+   },
+   "ref_empty": {
+    "raised": "RuntimeError",
+    "message": "The second supplied array does not contain any binary object.",
+    "warnings": []
+   },
+   "pred_empty": {
+    "raised": "RuntimeError",
+    "message": "The first supplied array does not contain any binary object.",
+    "warnings": []
+   },
+   "control": {
+    "value": 3.0,
+    "warnings": []
+   }
+  },
+  "hd95": {
+   "both_empty": {
+    "raised": "RuntimeError",
+    "message": "The first supplied array does not contain any binary object.",
+    "warnings": []
+   },
+   "ref_empty": {
+    "raised": "RuntimeError",
+    "message": "The second supplied array does not contain any binary object.",
+    "warnings": []
+   },
+   "pred_empty": {
+    "raised": "RuntimeError",
+    "message": "The first supplied array does not contain any binary object.",
+    "warnings": []
+   },
+   "control": {
+    "value": 3.0,
+    "warnings": []
+   }
+  },
+  "asd": {
+   "both_empty": {
+    "raised": "RuntimeError",
+    "message": "The first supplied array does not contain any binary object.",
+    "warnings": []
+   },
+   "ref_empty": {
+    "raised": "RuntimeError",
+    "message": "The second supplied array does not contain any binary object.",
+    "warnings": []
+   },
+   "pred_empty": {
+    "raised": "RuntimeError",
+    "message": "The first supplied array does not contain any binary object.",
+    "warnings": []
+   },
+   "control": {
+    "value": 1.5,
+    "warnings": []
+   }
+  }
+ }
+}

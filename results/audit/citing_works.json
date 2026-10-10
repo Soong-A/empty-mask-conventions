@@ -1,0 +1,3215 @@
+{
+  "queried": [
+    "DOI:10.1038/s41597-023-01981-y",
+    "ARXIV:2106.04463"
+  ],
+  "source_validation": "passed",
+  "source_papers": [
+    {
+      "query": "DOI:10.1038/s41597-023-01981-y",
+      "paperId": "6d6fa46fc88dc20d41326ec7fe51f8fbc5d6cb76",
+      "title": "A multi-centre polyp detection and segmentation dataset for generalisability assessment",
+      "externalIds": {
+        "ArXiv": "2106.04463",
+        "PubMedCentral": "9902556",
+        "DOI": "10.1038/s41597-023-01981-y",
+        "CorpusId": 256599957,
+        "PubMed": "36746950"
+      }
+    },
+    {
+      "query": "ARXIV:2106.04463",
+      "paperId": "6d6fa46fc88dc20d41326ec7fe51f8fbc5d6cb76",
+      "title": "A multi-centre polyp detection and segmentation dataset for generalisability assessment",
+      "externalIds": {
+        "ArXiv": "2106.04463",
+        "PubMedCentral": "9902556",
+        "DOI": "10.1038/s41597-023-01981-y",
+        "CorpusId": 256599957,
+        "PubMed": "36746950"
+      }
+    }
+  ],
+  "api": "https://api.semanticscholar.org/graph/v1",
+  "n_unique": 172,
+  "retrieved_utc": "2026-08-02T13:56:12Z",
+  "works": [
+    {
+      "key": "10.1016/j.engappai.2026.115392",
+      "paperId": "4a66de777b338b1ad4ce97acb815cdc9df8dd560",
+      "title": "Bridging the efficiency-accuracy gap in lightweight polyp detection scenarios via dynamic feature aggregation",
+      "year": 2026,
+      "venue": "Engineering applications of artificial intelligence",
+      "externalIds": {
+        "DBLP": "journals/eaai/LiaoLHZZFX26",
+        "DOI": "10.1016/j.engappai.2026.115392",
+        "CorpusId": 289290637
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "2607.28466",
+      "paperId": "99d213630634197b23f7da7c1d863931b2d0730b",
+      "title": "A report-grounded vision-language foundation model for colonoscopy from 280000 routine reports",
+      "year": 2026,
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2607.28466",
+        "CorpusId": 290694938
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1016/j.media.2026.104231",
+      "paperId": "ba0cf617ffd339aa44e1521f014b16849cf5ae31",
+      "title": "Causality-inspired representation learning with spatiotemporal memory for polyp detection in endoscopic videos.",
+      "year": 2026,
+      "venue": "Medical Image Analysis",
+      "externalIds": {
+        "DOI": "10.1016/j.media.2026.104231",
+        "CorpusId": 290631676,
+        "PubMed": "42520535"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "2607.17341",
+      "paperId": "9a103cfee6a643e5d8d626b83cf7242ff84a998d",
+      "title": "Understanding From Human Perspective: A Multi-agent System for Interactive Egocentric Medical Image Segmentation",
+      "year": 2026,
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2607.17341",
+        "CorpusId": 290377761
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "2607.08203",
+      "paperId": "8dbce420cde7a60932fd339072b63f2e644a8ee2",
+      "title": "Metrics or Mirage? An Audit of Evaluation Inconsistencies in Colonoscopy Polyp Segmentation Benchmarks",
+      "year": 2026,
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2607.08203",
+        "CorpusId": 290009755
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "2607.03062",
+      "paperId": "62bb5343c90cea33d2f8511fcd8c764cde99a0cf",
+      "title": "Lightweight Polyp Segmentation via a Gain-Aware Prediction-Space Recursive Controller",
+      "year": 2026,
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2607.03062",
+        "CorpusId": 289923006
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1007/s00371-026-04562-3",
+      "paperId": "2d6650ad2dd5e7ab4fb3f2cbad0c65228e106dac",
+      "title": "HAT-SAM3: endoscopy-aware adaptation of a foundation segmentation model for generalizable polyp segmentation",
+      "year": 2026,
+      "venue": "The Visual Computer",
+      "externalIds": {
+        "DOI": "10.1007/s00371-026-04562-3",
+        "CorpusId": 289633556
+      },
+      "pdf": "https://doi.org/10.1007/s00371-026-04562-3",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1038/s41575-026-01216-6",
+      "paperId": "8e14df9b75c2ee8d3a6b4e8452506049420c0c1c",
+      "title": "Synthetic data generation: challenges and perspectives for gastrointestinal medicine.",
+      "year": 2026,
+      "venue": "Nature reviews: Gastroenterology & hepatology",
+      "externalIds": {
+        "DOI": "10.1038/s41575-026-01216-6",
+        "CorpusId": 289384753,
+        "PubMed": "42310470"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "2607.19372",
+      "paperId": "b29d21e7e6594242e936d8d2805e25eaae71eb0c",
+      "title": "endoExplain: A reproducible protocol for auditing score-localisation discordance in colonoscopy image classifiers",
+      "year": 2026,
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2607.19372",
+        "CorpusId": 290443806
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1007/s11548-026-03713-0",
+      "paperId": "04333abf30cd42692c95960ecd84b3ab4f2f0ea6",
+      "title": "GEN-Guard: correcting generalization failures for deployable federated surgical AI.",
+      "year": 2026,
+      "venue": "International Journal of Computer Assisted Radiology and Surgery",
+      "externalIds": {
+        "ArXiv": "2606.20303",
+        "DOI": "10.1007/s11548-026-03713-0",
+        "CorpusId": 289266395,
+        "PubMed": "42289602"
+      },
+      "pdf": "https://arxiv.org/pdf/2606.20303",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.3389/frai.2026.1786679",
+      "paperId": "5e61438c3f30a84fab3bb5768bc2b912e73d4ca2",
+      "title": "Deep learning driven colorectal polyp analysis: a review of detection, classification and segmentation methods",
+      "year": 2026,
+      "venue": "Frontiers in Artificial Intelligence",
+      "externalIds": {
+        "PubMedCentral": "13272441",
+        "DOI": "10.3389/frai.2026.1786679",
+        "CorpusId": 288950295,
+        "PubMed": "42318577"
+      },
+      "pdf": "https://doi.org/10.3389/frai.2026.1786679",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.14218/ona.2026.00006",
+      "paperId": "c4e5a275a6e593bb90fe6d25f70cfe12486e5fd8",
+      "title": "Enhancing Cross-dataset Zero-shot Generalization in Colorectal Polyp Detection Using Vision-language Models",
+      "year": 2026,
+      "venue": "Oncology Advances",
+      "externalIds": {
+        "DOI": "10.14218/ona.2026.00006",
+        "CorpusId": 289126276
+      },
+      "pdf": "https://publinestorage.blob.core.windows.net/journals/ONCOLADV.2026.4(2).e00006.00006.Zhanglu Hu.pdf",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1016/j.bspc.2026.109909",
+      "paperId": "1cd67a9d5bbfb0eba0a8d5d2d3756b2f1196ebff",
+      "title": "A channel-efficient colorectal polyp detection using wavelet-enhanced reverse attention and custom neck YOLO architecture",
+      "year": 2026,
+      "venue": "Biomedical Signal Processing and Control",
+      "externalIds": {
+        "DBLP": "journals/bspc/SurebanAAPP26",
+        "DOI": "10.1016/j.bspc.2026.109909",
+        "CorpusId": 285854606
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2605.18130",
+      "paperId": "75ab420deec00d694916778b860745f1c5cb6212",
+      "title": "Rad-VLSM: A Cross-Modal Framework with Semantics-Assisted Prompting for Medical Segmentation and Diagnosis",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2605.18130",
+        "DBLP": "journals/corr/abs-2605-18130",
+        "DOI": "10.48550/arXiv.2605.18130",
+        "CorpusId": 288655741
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2605.16519",
+      "paperId": "620e71d4700c573d6f40273db6d3cfc315bc547e",
+      "title": "DepthPolyp: Pseudo-Depth Guided Lightweight Segmentation for Real-Time Colonoscopy",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2605-16519",
+        "ArXiv": "2605.16519",
+        "DOI": "10.48550/arXiv.2605.16519",
+        "CorpusId": 288655818
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1038/s41597-026-07331-y",
+      "paperId": "faf4df5e758152a271ec02f1d6805d0f021396b8",
+      "title": "CAD-SEL: A dual-modal colonoscopy dataset of subepithelial lesion",
+      "year": 2026,
+      "venue": "Scientific Data",
+      "externalIds": {
+        "PubMedCentral": "13342629",
+        "DOI": "10.1038/s41597-026-07331-y",
+        "CorpusId": 288067468,
+        "PubMed": "42071022"
+      },
+      "pdf": "https://www.nature.com/articles/s41597-026-07331-y_reference.pdf",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1016/j.eswa.2026.131122",
+      "paperId": "77e1d655981414f8cea5a68369ed4adc3a8566d9",
+      "title": "AdaptScanDet: Deformable mamba with multi-scan interaction for heterogeneous lesion detection in medical imaging",
+      "year": 2026,
+      "venue": "Expert systems with applications",
+      "externalIds": {
+        "DBLP": "journals/eswa/MaDDWZD26",
+        "DOI": "10.1016/j.eswa.2026.131122",
+        "CorpusId": 284633810
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.3390/diagnostics16091269",
+      "paperId": "8b9b74ee48fe6df3cef314e6d4036de3afcbc945",
+      "title": "Artificial Intelligence in Gastrointestinal Wireless Capsule Endoscopy: A Systematic Literature Review and Meta-Analysis",
+      "year": 2026,
+      "venue": "Diagnostics",
+      "externalIds": {
+        "PubMedCentral": "13162847",
+        "DOI": "10.3390/diagnostics16091269",
+        "CorpusId": 287751171,
+        "PubMed": "42121972"
+      },
+      "pdf": "https://www.mdpi.com/2075-4418/16/9/1269/pdf?version=1778145179",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2604.05649",
+      "paperId": "d092891e03659dce1e95b287210fd20ca95644e1",
+      "title": "Analogical Reasoning as a Doctor: A Foundation Model for Gastrointestinal Endoscopy Diagnosis",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2604-05649",
+        "ArXiv": "2604.05649",
+        "DOI": "10.48550/arXiv.2604.05649",
+        "CorpusId": 287208619
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.17759/mda.2026160102",
+      "paperId": "8b78e955934591f8ab956256fae02cb094cfd11e",
+      "title": "Deep learning for the analysis of medical images in endoscopy: approaches to early diagnosis",
+      "year": 2026,
+      "venue": "Modelling and Data Analysis",
+      "externalIds": {
+        "DOI": "10.17759/mda.2026160102",
+        "CorpusId": 286713675
+      },
+      "pdf": "https://psyjournals.ru/journals/mda/archive/2026_n1/mda_2026_n1_Almusawi_Lyapuntsova.pdf",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2603.25645",
+      "paperId": "2d5756b3d9ccd96a8b9bec737252115d54623a84",
+      "title": "Colon-Bench: An Agentic Workflow for Scalable Dense Lesion Annotation in Full-Procedure Colonoscopy Videos",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2603.25645",
+        "DBLP": "journals/corr/abs-2603-25645",
+        "DOI": "10.48550/arXiv.2603.25645",
+        "CorpusId": 286791614
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/TMI.2026.3674592",
+      "paperId": "d2eade5454e830922aed958abeb7778f1bb608c6",
+      "title": "Text-Image Co-Alignment for Weakly Supervised Polyp Segmentation",
+      "year": 2026,
+      "venue": "IEEE Transactions on Medical Imaging",
+      "externalIds": {
+        "DBLP": "journals/tmi/HuangPWZHGZ26",
+        "DOI": "10.1109/TMI.2026.3674592",
+        "CorpusId": 286642158,
+        "PubMed": "41843525"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2603.04795",
+      "paperId": "e7d8ac18a6cb8dfa5e37c7e64756670da12de0cc",
+      "title": "LAW & ORDER: Adaptive Spatial Weighting for Medical Diffusion and Segmentation",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2603.04795",
+        "DBLP": "journals/corr/abs-2603-04795",
+        "DOI": "10.48550/arXiv.2603.04795",
+        "CorpusId": 286256117
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2603.04288",
+      "paperId": "edce6e164eb7c843c32499f51e2f2fd4114079e3",
+      "title": "A multi-center analysis of deep learning methods for video polyp detection and segmentation",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2603.04288",
+        "DBLP": "journals/corr/abs-2603-04288",
+        "DOI": "10.48550/arXiv.2603.04288",
+        "CorpusId": 286239120
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.3390/jimaging12030112",
+      "paperId": "32c248fe418c7fe08ec759f241f47f39283c81a8",
+      "title": "Endo-DET: A Domain-Specific Detection Framework for Multi-Class Endoscopic Disease Detection",
+      "year": 2026,
+      "venue": "Journal of Imaging",
+      "externalIds": {
+        "PubMedCentral": "13028429",
+        "DBLP": "journals/jimaging/LuZYSS26",
+        "DOI": "10.3390/jimaging12030112",
+        "CorpusId": 286420033,
+        "PubMed": "41892914"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1016/j.cmpb.2026.109315",
+      "paperId": "3c4074036cff36c264a5cc17621bdb4404180974",
+      "title": "PIBAdb: a public cohort of multimodal colonoscopy videos and images including polyps with histological information",
+      "year": 2026,
+      "venue": "Comput. Methods Programs Biomed.",
+      "externalIds": {
+        "DBLP": "journals/cmpb/NogueiraRodriguezDCHPRS26",
+        "DOI": "10.1016/j.cmpb.2026.109315",
+        "CorpusId": 286477505,
+        "PubMed": "41863886"
+      },
+      "pdf": "https://doi.org/10.1016/j.cmpb.2026.109315",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1038/s41597-026-06887-z",
+      "paperId": "fc1f0e16f899f94da226a42208f626cd554f1dd9",
+      "title": "CystoDS: a multiclass endoscopy image dataset for artificial intelligence-assisted bladder cancer detection",
+      "year": 2026,
+      "venue": "Scientific Data",
+      "externalIds": {
+        "PubMedCentral": "13057115",
+        "DOI": "10.1038/s41597-026-06887-z",
+        "CorpusId": 286127832,
+        "PubMed": "41741508"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1007/s00530-025-02186-6",
+      "paperId": "05f8373586e5bc96c8133b381e6653114f314061",
+      "title": "DeRe-Net: details restoration networks for polyp segmentation",
+      "year": 2026,
+      "venue": "Multimedia Systems",
+      "externalIds": {
+        "DBLP": "journals/mms/WanWZW26",
+        "DOI": "10.1007/s00530-025-02186-6",
+        "CorpusId": 285264144
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2602.03320",
+      "paperId": "4b464d3fd19849ea7f635dfd5291cc37a5f88a16",
+      "title": "MedSAM-Agent: Empowering Interactive Medical Image Segmentation with Multi-turn Agentic Reinforcement Learning",
+      "year": 2026,
+      "venue": "arXiv.org",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2602-03320",
+        "ArXiv": "2602.03320",
+        "DOI": "10.48550/arXiv.2602.03320",
+        "CorpusId": 285275534
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1038/s41746-026-02345-7",
+      "paperId": "66ab5889c019e45998709137b3f11d961d7e676f",
+      "title": "PrysmNet a polyp refining system using salience and multimodal guidance for reproducible cross domain segmentation",
+      "year": 2026,
+      "venue": "npj Digital Medicine",
+      "externalIds": {
+        "PubMedCentral": "12902062",
+        "DBLP": "journals/npjdm/XiaoHWLWLYWL26",
+        "DOI": "10.1038/s41746-026-02345-7",
+        "CorpusId": 284934464,
+        "PubMed": "41565973"
+      },
+      "pdf": "https://www.nature.com/articles/s41746-026-02345-7_reference.pdf",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.3389/fmed.2025.1719145",
+      "paperId": "a9129acea12c6a183518b0b0b39367d792e982bb",
+      "title": "Artificial intelligence in advanced endoscopic imaging: transforming optical diagnosis in gastroenterology",
+      "year": 2026,
+      "venue": "Frontiers in Medicine",
+      "externalIds": {
+        "PubMedCentral": "12855100",
+        "DOI": "10.3389/fmed.2025.1719145",
+        "CorpusId": 284840012,
+        "PubMed": "41625762"
+      },
+      "pdf": "https://public-pages-files-2025.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1719145/pdf",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2601.04891",
+      "paperId": "7c87e6d659f71236292457f8248994c5f2292d1a",
+      "title": "Scaling Vision Language Models for Pharmaceutical Long Form Video Reasoning on Industrial GenAI Platform",
+      "year": 2026,
+      "venue": "Proceedings of the 4th Workshop on Advances in Language and Vision Research (ALVR)",
+      "externalIds": {
+        "ArXiv": "2601.04891",
+        "DBLP": "journals/corr/abs-2601-04891",
+        "DOI": "10.48550/arXiv.2601.04891",
+        "CorpusId": 284543777
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1016/j.artmed.2026.103352",
+      "paperId": "0d76196384dceddeb9ca130d6e76db07abaa8dcb",
+      "title": "Rethinking U-Net architecture in medical imaging: Advancing the efficient and interpretable UKAN-CBAM framework for colorectal polyp segmentation",
+      "year": 2026,
+      "venue": "Artif. Intell. Medicine",
+      "externalIds": {
+        "DBLP": "journals/artmed/AhamedSINH26",
+        "DOI": "10.1016/j.artmed.2026.103352",
+        "CorpusId": 284855728,
+        "PubMed": "41558310"
+      },
+      "pdf": "https://doi.org/10.1016/j.artmed.2026.103352",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.5946/ce.2024.337",
+      "paperId": "7c66429e5352d0ef81abdcd29b6c25df7daed5be",
+      "title": "Comparison of colon adenoma detection rate using cap-assisted and artificial intelligence-assisted colonoscopy at a tertiary hospital in the Philippines: a propensity score-matched analysis",
+      "year": 2025,
+      "venue": "Clinical Endoscopy",
+      "externalIds": {
+        "PubMedCentral": "12933539",
+        "DOI": "10.5946/ce.2024.337",
+        "CorpusId": 284409570,
+        "PubMed": "41499806"
+      },
+      "pdf": "https://doi.org/10.5946/ce.2024.337",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2512.16977",
+      "paperId": "bd0cc85f269016f178f0493b343fafb65b99c9cf",
+      "title": "Endo-SemiS: Towards Robust Semi-Supervised Image Segmentation for Endoscopic Video",
+      "year": 2025,
+      "venue": "Proceedings of machine learning research",
+      "externalIds": {
+        "ArXiv": "2512.16977",
+        "PubMedCentral": "13294828",
+        "DBLP": "journals/corr/abs-2512-16977",
+        "DOI": "10.48550/arXiv.2512.16977",
+        "CorpusId": 284058105,
+        "PubMed": "42367243"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/TMI.2026.3679527",
+      "paperId": "d0e64989b0b078df778a2d9c938f1bf525b62d01",
+      "title": "Interpretable Similarity of Synthetic Image Utility",
+      "year": 2025,
+      "venue": "IEEE Transactions on Medical Imaging",
+      "externalIds": {
+        "ArXiv": "2512.17080",
+        "DBLP": "journals/corr/abs-2512-17080",
+        "DOI": "10.1109/TMI.2026.3679527",
+        "CorpusId": 284057865,
+        "PubMed": "41915519"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2512.13376",
+      "paperId": "ce4ee15eac9e04bd334997ec0003cfb61a0046b1",
+      "title": "Unlocking Generalization in Polyp Segmentation with DINO Self-Attention \"keys\"",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2512.13376",
+        "DBLP": "journals/corr/abs-2512-13376",
+        "DOI": "10.48550/arXiv.2512.13376",
+        "CorpusId": 283895832
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1142/9789819824755_0004",
+      "paperId": "e6fbfa4abe843c10f46645b04a126a2a9197a8c3",
+      "title": "A Clinician-Guided Framework for Endoscopic AI: Developing PanEndoAtlas and Benchmarking Foundation Models Across the Full GI Spectrum.",
+      "year": 2025,
+      "venue": "Pacific Symposium on Biocomputing. Pacific Symposium on Biocomputing",
+      "externalIds": {
+        "DOI": "10.1142/9789819824755_0004",
+        "CorpusId": 283978249,
+        "PubMed": "41758132"
+      },
+      "pdf": "https://doi.org/10.1142/9789819824755_0004",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "2512.03667",
+      "paperId": "63012695313540aea4d79e72d0053e39bc217322",
+      "title": "Colon-X: Advancing Intelligent Colonoscopy toward Clinical Reasoning",
+      "year": 2025,
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2512.03667",
+        "CorpusId": 283466778
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.3390/bioengineering12121329",
+      "paperId": "f788073bc31e0c22930c47d16c60251485ccf75e",
+      "title": "Gastrointestinal Lesion Detection Using Ensemble Deep Learning Through Global Contextual Information",
+      "year": 2025,
+      "venue": "Bioengineering",
+      "externalIds": {
+        "PubMedCentral": "12729391",
+        "DOI": "10.3390/bioengineering12121329",
+        "CorpusId": 283649143,
+        "PubMed": "41463626"
+      },
+      "pdf": "https://www.mdpi.com/2306-5354/12/12/1329/pdf?version=1764939435",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1038/s41746-025-02236-3",
+      "paperId": "d47274b250419a455d036a6571ee1e95e3b79b8b",
+      "title": "Deep multimodal state-space fusion of endoscopic-radiomic and clinical data for survival prediction in colorectal cancer",
+      "year": 2025,
+      "venue": "npj Digital Medicine",
+      "externalIds": {
+        "PubMedCentral": "12756232",
+        "DBLP": "journals/npjdm/WangLLLJNHCYH25",
+        "DOI": "10.1038/s41746-025-02236-3",
+        "CorpusId": 284363276,
+        "PubMed": "41476131"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1134/s1064562425700541",
+      "paperId": "c13361a08e8a2901fb2f4e934e7c13bb7baeb3de",
+      "title": "Where Semantics Meets Space: A Layer-Wise Analysis of Frozen Encoders for Efficient Polyp Segmentation",
+      "year": 2025,
+      "venue": "Doklady. Mathematics",
+      "externalIds": {
+        "DOI": "10.1134/s1064562425700541",
+        "CorpusId": 286763700
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2511.19046",
+      "paperId": "556ce9d15023a883e64a684063de9529a85716a3",
+      "title": "MedSAM3: Delving into Segment Anything with Medical Concepts",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2511-19046",
+        "ArXiv": "2511.19046",
+        "DOI": "10.48550/arXiv.2511.19046",
+        "CorpusId": 283243537
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1038/s41746-025-02042-x",
+      "paperId": "e8ff2fc61bdbb4dafc4a47c3a9b0db33519f7e3c",
+      "title": "Large language models driven neural architecture search for universal and lightweight disease diagnosis on histopathology slide images",
+      "year": 2025,
+      "venue": "npj Digital Medicine",
+      "externalIds": {
+        "DBLP": "journals/npjdm/SuMWLYLX25",
+        "PubMedCentral": "12627663",
+        "DOI": "10.1038/s41746-025-02042-x",
+        "CorpusId": 283074375,
+        "PubMed": "41254215"
+      },
+      "pdf": "https://www.nature.com/articles/s41746-025-02042-x.pdf",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2511.06769",
+      "paperId": "b4062d781e94cdfef58f72195a7eee6480b03184",
+      "title": "RRTS Dataset: A Benchmark Colonoscopy Dataset from Resource-Limited Settings for Computer-Aided Diagnosis Research",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2511-06769",
+        "ArXiv": "2511.06769",
+        "DOI": "10.48550/arXiv.2511.06769",
+        "CorpusId": 282912210
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1007/s10462-025-11369-6",
+      "paperId": "505f69e960aaad22229c91057d3654841f081434",
+      "title": "Advancement in semantic segmentation techniques: a comprehensive review for semantic segmentation of colorectal polyps using deep learning",
+      "year": 2025,
+      "venue": "Artificial Intelligence Review",
+      "externalIds": {
+        "DBLP": "journals/air/MananFA25",
+        "DOI": "10.1007/s10462-025-11369-6",
+        "CorpusId": 282440594
+      },
+      "pdf": "https://doi.org/10.1007/s10462-025-11369-6",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/ICCV51701.2025.02241",
+      "paperId": "4b65e81758498be8977d79e0f700ff72ee3d639c",
+      "title": "One Polyp Identifies All: One-Shot Polyp Segmentation with SAM via Cascaded Priors and Iterative Prompt Evolution",
+      "year": 2025,
+      "venue": "IEEE International Conference on Computer Vision",
+      "externalIds": {
+        "DBLP": "conf/iccv/MaoXMLBNM25",
+        "DOI": "10.1109/ICCV51701.2025.02241",
+        "CorpusId": 280676142
+      },
+      "pdf": "https://arxiv.org/pdf/2507.16337",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/ICCVW69036.2025.00118",
+      "paperId": "8573322db40a79ea7159e4e6791d57794c22fd9c",
+      "title": "BAMPolyp: Bi-Axial Mamba Bottleneck for Gastrointestinal Polyp Segmentation",
+      "year": 2025,
+      "venue": "2025 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)",
+      "externalIds": {
+        "DBLP": "conf/iccv/IslamACMMZN25",
+        "DOI": "10.1109/ICCVW69036.2025.00118",
+        "CorpusId": 286015197
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1016/j.inffus.2025.103810",
+      "paperId": "b0f0acd59e407bd7d42f235f0f71c7f030188397",
+      "title": "A survey on electronic health record driven multimodal representation learning",
+      "year": 2025,
+      "venue": "Information Fusion",
+      "externalIds": {
+        "DBLP": "journals/inffus/DouLZZXP26",
+        "DOI": "10.1016/j.inffus.2025.103810",
+        "CorpusId": 281912825
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/TMI.2025.3615677",
+      "paperId": "f2018077ace6bd8e7f6359267b12ed15c2927044",
+      "title": "Endoscopic Adaptive Transformer for Enhanced Polyp Segmentation in Endoscopic Imaging",
+      "year": 2025,
+      "venue": "IEEE Transactions on Medical Imaging",
+      "externalIds": {
+        "DBLP": "journals/tmi/PangLCHCW26",
+        "DOI": "10.1109/TMI.2025.3615677",
+        "CorpusId": 281677415,
+        "PubMed": "41021929"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/ICWITE64848.2025.11307123",
+      "paperId": "86b6f04b3dd064a0cc04aa35733093abb904f186",
+      "title": "Polyp Detection Using Deep Learning Technique",
+      "year": 2025,
+      "venue": "2025 IEEE International Conference for Women in Innovation, Technology & Entrepreneurship (ICWITE)",
+      "externalIds": {
+        "DOI": "10.1109/ICWITE64848.2025.11307123",
+        "CorpusId": 284353978
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2509.19166",
+      "paperId": "771e6a892bc2a2ec516c03f1cb0ea6efba8065cd",
+      "title": "YOLO-LAN: Precise Polyp Detection via Optimized Loss, Augmentations and Negatives",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2509-19166",
+        "ArXiv": "2509.19166",
+        "DOI": "10.48550/arXiv.2509.19166",
+        "CorpusId": 281496493
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1038/s41551-025-01500-x",
+      "paperId": "a78af6cac935622c05f5f6ac9d7f33d81d18eaf7",
+      "title": "Leveraging large language and vision models for knowledge extraction from large-scale image–text colonoscopy records",
+      "year": 2025,
+      "venue": "Nature Biomedical Engineering",
+      "externalIds": {
+        "DOI": "10.1038/s41551-025-01500-x",
+        "CorpusId": 281328648,
+        "PubMed": "40958005"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1515/bmt-2025-0179",
+      "paperId": "9ce23d27b37ec19316067052204e626574825774",
+      "title": "Automated lesion detection in endoscopic imagery for small animal models – a pilot study",
+      "year": 2025,
+      "venue": "Biomedizinische Technik. Biomedical engineering",
+      "externalIds": {
+        "DOI": "10.1515/bmt-2025-0179",
+        "CorpusId": 281327155,
+        "PubMed": "40960131"
+      },
+      "pdf": "https://doi.org/10.1515/bmt-2025-0179",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2508.19705",
+      "paperId": "e82d1251edb89c10f2626ccc3b7355a3382107fe",
+      "title": "FreeVPS: Repurposing Training-Free SAM2 for Generalizable Video Polyp Segmentation",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2508-19705",
+        "ArXiv": "2508.19705",
+        "DOI": "10.48550/arXiv.2508.19705",
+        "CorpusId": 280918908
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.3390/jimaging11090293",
+      "paperId": "9079145cd44c5bf64cb4241543bf41cc32ba039d",
+      "title": "Colorectal Polyp Segmentation Based on Deep Learning Methods: A Systematic Review",
+      "year": 2025,
+      "venue": "Journal of Imaging",
+      "externalIds": {
+        "DBLP": "journals/jimaging/LiuICL25",
+        "PubMedCentral": "12470534",
+        "DOI": "10.3390/jimaging11090293",
+        "CorpusId": 280965623,
+        "PubMed": "41003344"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1016/j.compbiomed.2025.110952",
+      "paperId": "dd34c97a053485da64971e4510f7210e912cb480",
+      "title": "DYNAFormer: Enhancing transformer segmentation with dynamic anchor mask for medical imaging",
+      "year": 2025,
+      "venue": "Comput. Biol. Medicine",
+      "externalIds": {
+        "DBLP": "journals/cbm/NguyenPDMNPLSNT25",
+        "DOI": "10.1016/j.compbiomed.2025.110952",
+        "CorpusId": 280899381,
+        "PubMed": "40857812"
+      },
+      "pdf": "https://doi.org/10.1016/j.compbiomed.2025.110952",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.3390/app15179259",
+      "paperId": "c2dc34304ef51aa9a1ae5d7e5d0db4a41549cecf",
+      "title": "Blurred Lesion Image Segmentation via an Adaptive Scale Thresholding Network",
+      "year": 2025,
+      "venue": "Applied Sciences",
+      "externalIds": {
+        "DOI": "10.3390/app15179259",
+        "CorpusId": 280836211
+      },
+      "pdf": "https://www.mdpi.com/2076-3417/15/17/9259/pdf?version=1755872490",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2507.22792",
+      "paperId": "e6a2e4d00dfc45a2d0c3124afa69baa8e8b476a8",
+      "title": "Segment Anything for Video: A Comprehensive Review of Video Object Segmentation and Tracking from Past to Future",
+      "year": 2025,
+      "venue": "Neurocomputing",
+      "externalIds": {
+        "DBLP": "journals/ijon/XuUYSZLZ26",
+        "ArXiv": "2507.22792",
+        "DOI": "10.48550/arXiv.2507.22792",
+        "CorpusId": 280391207
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/JBHI.2025.3592897",
+      "paperId": "9e5d7e340001e8b91c40d64e6328f9065305086b",
+      "title": "Efficient Video Polyp Segmentation by Deformable Alignment and Local Attention",
+      "year": 2025,
+      "venue": "IEEE journal of biomedical and health informatics",
+      "externalIds": {
+        "DBLP": "journals/titb/ZhaoWY26",
+        "DOI": "10.1109/JBHI.2025.3592897",
+        "CorpusId": 280044431,
+        "PubMed": "40711901"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1007/s42979-025-04177-w",
+      "paperId": "467ce1dd6f25b0b66bbe7470f59a91cb38aca972",
+      "title": "Colorectal Polyp Segmentation with Different Dataset Combinations",
+      "year": 2025,
+      "venue": "SN Computer Science",
+      "externalIds": {
+        "DBLP": "journals/sncs/AraujoSAMFRF25",
+        "DOI": "10.1007/s42979-025-04177-w",
+        "CorpusId": 280346993
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1117/12.3068593",
+      "paperId": "bfa249bb6bd985934aa1f93536b7644c7637e460",
+      "title": "AEEM-Net: adaptive edge enhancement network for robust medical image segmentation",
+      "year": 2025,
+      "venue": "Other Conferences",
+      "externalIds": {
+        "DOI": "10.1117/12.3068593",
+        "CorpusId": 280350553
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/TPAMI.2026.3668075",
+      "paperId": "4f4dd511e73178dd5443a3d0a8a2b08fc6f83fd5",
+      "title": "Winsor-CAM: Human-Tunable Visual Explanations From Deep Networks via Layer-Wise Winsorization",
+      "year": 2025,
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "externalIds": {
+        "ArXiv": "2507.10846",
+        "DBLP": "journals/pami/WallWRS26",
+        "DOI": "10.1109/TPAMI.2026.3668075",
+        "CorpusId": 280294478,
+        "PubMed": "41740094"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2507.10490",
+      "paperId": "35abb580623878436e3a43972eafd9d72ae79620",
+      "title": "The Power of Certainty: How Confident Models Lead to Better Segmentation",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2507.10490",
+        "DBLP": "journals/corr/abs-2507-10490",
+        "DOI": "10.48550/arXiv.2507.10490",
+        "CorpusId": 280296473
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/TMI.2025.3588503",
+      "paperId": "e8ab398751b1e5ab0d71530de732d38552887c40",
+      "title": "MDPNet: Multiscale Dynamic Polyp-Focus Network for Enhancing Medical Image Polyp Segmentation",
+      "year": 2025,
+      "venue": "IEEE Transactions on Medical Imaging",
+      "externalIds": {
+        "DBLP": "journals/tmi/KamaraHFXC25",
+        "DOI": "10.1109/TMI.2025.3588503",
+        "CorpusId": 280181611,
+        "PubMed": "40658578"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1016/j.compmedimag.2025.102591",
+      "paperId": "117b62790419593b12f3576110db56c0043b44b2",
+      "title": "PedSemiSeg: Pedagogy-inspired semi-supervised polyp segmentation",
+      "year": 2025,
+      "venue": "Comput. Medical Imaging Graph.",
+      "externalIds": {
+        "DBLP": "journals/cmig/WangMBWXZIR25",
+        "DOI": "10.1016/j.compmedimag.2025.102591",
+        "CorpusId": 279879126,
+        "PubMed": "40609495"
+      },
+      "pdf": "https://doi.org/10.1016/j.compmedimag.2025.102591",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.3390/biomedicines13071561",
+      "paperId": "46ffa575d3264e2f467525264d61b9ce7fbda89b",
+      "title": "Evaluation of Perceptual Realism and Clinical Plausibility of AI-Generated Colon Polyp Images",
+      "year": 2025,
+      "venue": "Biomedicines",
+      "externalIds": {
+        "PubMedCentral": "12292153",
+        "DOI": "10.3390/biomedicines13071561",
+        "CorpusId": 279686069,
+        "PubMed": "40722637"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1145/3721201.3721388",
+      "paperId": "e1308c57e1830a42191f33aec2e1f47fb61e4993",
+      "title": "PolypSEAG-Net: Enhanced Polyp Segmentation with Attention Gates and Squeeze-and-Excitation",
+      "year": 2025,
+      "venue": "IEEE/ACM International Conference on Connected Health: Applications, Systems and Engineering Technologies",
+      "externalIds": {
+        "DBLP": "conf/chase/Liu00W25",
+        "DOI": "10.1145/3721201.3721388",
+        "CorpusId": 280697734
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/CBMS65348.2025.00018",
+      "paperId": "419f86901084704e3127f07c7c2c32ca2f6803f3",
+      "title": "Automatic Prompt Generation for Zero-Shot Single Object Frame Segmentation in Videos Using Classification Models: A Polyp Case Study",
+      "year": 2025,
+      "venue": "2025 IEEE 38th International Symposium on Computer-Based Medical Systems (CBMS)",
+      "externalIds": {
+        "DBLP": "conf/cbms/BorgliRSH25",
+        "DOI": "10.1109/CBMS65348.2025.00018",
+        "CorpusId": 279899929
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1371/journal.pone.0325987",
+      "paperId": "ef7edebf6caba20ad443a095c41bb8d4bf4d48a0",
+      "title": "Advancing artificial intelligence applicability in endoscopy through source-agnostic camera signal extraction from endoscopic images",
+      "year": 2025,
+      "venue": "PLoS ONE",
+      "externalIds": {
+        "PubMedCentral": "12157078",
+        "DOI": "10.1371/journal.pone.0325987",
+        "CorpusId": 279306704,
+        "PubMed": "40498866"
+      },
+      "pdf": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0325987&type=printable",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1002/ima.70123",
+      "paperId": "eebb7eb2cf445e1c7f514c6a0c7815b41f6eac8c",
+      "title": "Multicentered Data Based Polyp Detection Using Colonoscopy Images Using DNN",
+      "year": 2025,
+      "venue": "International journal of imaging systems and technology (Print)",
+      "externalIds": {
+        "DBLP": "journals/imst/SalamCMC25",
+        "DOI": "10.1002/ima.70123",
+        "CorpusId": 279191790
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1016/j.bspc.2025.107529",
+      "paperId": "deda626c810c36459e9f8d152847033ec1ccd1ad",
+      "title": "CE-YOLO: A channel-efficient YOLO algorithm for colorectal polyp detection",
+      "year": 2025,
+      "venue": "Biomedical Signal Processing and Control",
+      "externalIds": {
+        "DBLP": "journals/bspc/XuFMHWXW25",
+        "DOI": "10.1016/j.bspc.2025.107529",
+        "CorpusId": 276004985
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1038/s41597-025-05251-x",
+      "paperId": "add97976fab87bf10b84a76e5f55ed5f29ecd5af",
+      "title": "Polyp-Size: A Precise Endoscopic Dataset for AI-Driven Polyp Sizing",
+      "year": 2025,
+      "venue": "Scientific Data",
+      "externalIds": {
+        "PubMedCentral": "12126491",
+        "DOI": "10.1038/s41597-025-05251-x",
+        "CorpusId": 279054980,
+        "PubMed": "40450075"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "2505.23601",
+      "paperId": "290bb7fade17d1ee13d2e36489273ccff274a3ce",
+      "title": "EndoBench: A Comprehensive Evaluation of Multi-Modal Large Language Models for Endoscopy Analysis",
+      "year": 2025,
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2505.23601",
+        "CorpusId": 278996742
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.3390/math13111711",
+      "paperId": "e34360f79bac5c21951f87b1fc11f070bfb30b52",
+      "title": "Aggregating Image Segmentation Predictions with Probabilistic Risk Control Guarantees",
+      "year": 2025,
+      "venue": "Mathematics",
+      "externalIds": {
+        "DOI": "10.3390/math13111711",
+        "CorpusId": 278861583
+      },
+      "pdf": "https://www.mdpi.com/2227-7390/13/11/1711/pdf?version=1747992843",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1007/s00530-025-01793-7",
+      "paperId": "3a378e7a5ca98a170ee9d5f618bd274051fa6ca5",
+      "title": "Rethinking Polyp Segmentation from the Perspectives of Matching Views and Seeking Camouflage",
+      "year": 2025,
+      "venue": "Multimedia Systems",
+      "externalIds": {
+        "DBLP": "journals/mms/JiangCYLL25",
+        "DOI": "10.1007/s00530-025-01793-7",
+        "CorpusId": 278412600
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/ISBI60581.2025.10980797",
+      "paperId": "27961ce9e22a0afcd0933bc5a5f935ba82dedf6b",
+      "title": "BoxPolypSAM: Leveraging SAM in Box-Supervised Polyp Segmentation",
+      "year": 2025,
+      "venue": "IEEE International Symposium on Biomedical Imaging",
+      "externalIds": {
+        "DBLP": "conf/isbi/CaiFGMSL25",
+        "DOI": "10.1109/ISBI60581.2025.10980797",
+        "CorpusId": 278553901
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/ITIKD63574.2025.11005037",
+      "paperId": "8eda154af43df517ab9547336d192bdab3ab897c",
+      "title": "Early Stage Detection of Colorectal Cancer using Segmentation of Polyps",
+      "year": 2025,
+      "venue": "2024 International Conference on IT Innovation and Knowledge Discovery (ITIKD)",
+      "externalIds": {
+        "DOI": "10.1109/ITIKD63574.2025.11005037",
+        "CorpusId": 278776313
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.3390/diagnostics15070901",
+      "paperId": "144cb5b08eb248cd79a5a9dbefcfab6f33f188d8",
+      "title": "Real-World Colonoscopy Video Integration to Improve Artificial Intelligence Polyp Detection Performance and Reduce Manual Annotation Labor",
+      "year": 2025,
+      "venue": "Diagnostics",
+      "externalIds": {
+        "PubMedCentral": "11988911",
+        "DOI": "10.3390/diagnostics15070901",
+        "CorpusId": 277536537,
+        "PubMed": "40218251"
+      },
+      "pdf": "https://doi.org/10.3390/diagnostics15070901",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2503.24108",
+      "paperId": "3f7bbe3578def658d377d46c071dec33c29a13ed",
+      "title": "PolypSegTrack: Unified Foundation Model for Colonoscopy Video Analysis",
+      "year": 2025,
+      "venue": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+      "externalIds": {
+        "ArXiv": "2503.24108",
+        "DBLP": "journals/corr/abs-2503-24108",
+        "DOI": "10.48550/arXiv.2503.24108",
+        "CorpusId": 277468182
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1016/j.bspc.2026.109777",
+      "paperId": "2bdaeeca93b6d1b1b1f7ce770f23997f719b18b0",
+      "title": "LGPS: A Lightweight GAN-Based Approach for Polyp Segmentation in Colonoscopy Images",
+      "year": 2025,
+      "venue": "Biomedical Signal Processing and Control",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2503-18294",
+        "ArXiv": "2503.18294",
+        "DOI": "10.1016/j.bspc.2026.109777",
+        "CorpusId": 277272321
+      },
+      "pdf": "https://doi.org/10.1016/j.bspc.2026.109777",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/ICMLT65785.2025.11193329",
+      "paperId": "31b0d9555f54a3977b810363f345242fe3d92696",
+      "title": "Reducing False Ventricular Tachycardia Alarms in ICU Settings: A Machine Learning Approach",
+      "year": 2025,
+      "venue": "International Conference on Machine Learning Technologies",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2503-14621",
+        "ArXiv": "2503.14621",
+        "DOI": "10.1109/ICMLT65785.2025.11193329",
+        "CorpusId": 277113630
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2503.12781",
+      "paperId": "5e067604297b3663b0ee54551aa2e920e1845999",
+      "title": "SAM2 for Image and Video Segmentation: A Comprehensive Survey",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2503-12781",
+        "ArXiv": "2503.12781",
+        "DOI": "10.48550/arXiv.2503.12781",
+        "CorpusId": 277066508
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1007/s10462-025-11173-2",
+      "paperId": "d22a463964f31a55307d9adde1e6a022cde9dcc1",
+      "title": "Polyp segmentation in medical imaging: challenges, approaches and future directions",
+      "year": 2025,
+      "venue": "Artificial Intelligence Review",
+      "externalIds": {
+        "DBLP": "journals/air/QayoomXA25",
+        "DOI": "10.1007/s10462-025-11173-2",
+        "CorpusId": 277090831
+      },
+      "pdf": "https://doi.org/10.1007/s10462-025-11173-2",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.3390/diagnostics15050591",
+      "paperId": "8533462966171e528fbd358ddcf13a76e9b6acee",
+      "title": "Is the Transverse Colon Overlooked? Establishing a Comprehensive Colonoscopy Database from a Multicenter Cluster-Randomized Controlled Trial",
+      "year": 2025,
+      "venue": "Diagnostics",
+      "externalIds": {
+        "PubMedCentral": "11898687",
+        "DOI": "10.3390/diagnostics15050591",
+        "CorpusId": 276718976,
+        "PubMed": "40075838"
+      },
+      "pdf": "https://www.mdpi.com/2075-4418/15/5/591/pdf?version=1740752851",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.3390/cancers17050797",
+      "paperId": "9fb384f430013ccbeabcfe1597cc1d292abf33f1",
+      "title": "AI and Polyp Detection During Colonoscopy",
+      "year": 2025,
+      "venue": "Cancers",
+      "externalIds": {
+        "PubMedCentral": "11898786",
+        "DOI": "10.3390/cancers17050797",
+        "CorpusId": 276654325,
+        "PubMed": "40075645"
+      },
+      "pdf": "https://doi.org/10.3390/cancers17050797",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/TMI.2025.3589456",
+      "paperId": "c76d7e12d3951e2265a6587dbe5a1c19eecaf6e3",
+      "title": "Robust Polyp Detection and Diagnosis Through Compositional Prompt-Guided Diffusion Models",
+      "year": 2025,
+      "venue": "IEEE Transactions on Medical Imaging",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2502-17951",
+        "ArXiv": "2502.17951",
+        "DOI": "10.1109/TMI.2025.3589456",
+        "CorpusId": 276580469,
+        "PubMed": "40663685"
+      },
+      "pdf": "https://arxiv.org/pdf/2502.17951",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1093/jcag/gwae041",
+      "paperId": "f4ad4e95a1d33a1d525b2a1d9b1d07fba0c280a7",
+      "title": "From data to artificial intelligence: evaluating the readiness of gastrointestinal endoscopy datasets",
+      "year": 2025,
+      "venue": "Journal of the Canadian Association of Gastroenterology",
+      "externalIds": {
+        "PubMedCentral": "11842897",
+        "DOI": "10.1093/jcag/gwae041",
+        "CorpusId": 276533305,
+        "PubMed": "39990508"
+      },
+      "pdf": "https://doi.org/10.1093/jcag/gwae041",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1007/s41870-025-02447-7",
+      "paperId": "d934136d7fa6e857b4125bd4b7246195611f07b8",
+      "title": "PVTAdpNet: Polyp Segmentation using Pyramid vision transformer with a novel Adapter block",
+      "year": 2025,
+      "venue": "International journal of information technology",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2509-23751",
+        "ArXiv": "2509.23751",
+        "DOI": "10.1007/s41870-025-02447-7",
+        "CorpusId": 276514791
+      },
+      "pdf": "https://arxiv.org/pdf/2509.23751",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/IJCNN64981.2025.11227809",
+      "paperId": "57e961c69c41690213aeec54ca787ab80280497b",
+      "title": "MGFI-Net: A Multi-Grained Feature Integration Network for Enhanced Medical Image Segmentation",
+      "year": 2025,
+      "venue": "IEEE International Joint Conference on Neural Network",
+      "externalIds": {
+        "ArXiv": "2502.13808",
+        "DBLP": "conf/ijcnn/Zeng25",
+        "DOI": "10.1109/IJCNN64981.2025.11227809",
+        "CorpusId": 276449803
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1016/j.bspc.2024.106942",
+      "paperId": "0fe9ab54493d8d2d64eaba2b71c9927d38119255",
+      "title": "Enhanced YOLOv8 with attention mechanisms for accurate detection of colorectal polyps",
+      "year": 2025,
+      "venue": "Biomedical Signal Processing and Control",
+      "externalIds": {
+        "DBLP": "journals/bspc/WangLSL25",
+        "DOI": "10.1016/j.bspc.2024.106942",
+        "CorpusId": 273041709
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1016/j.media.2025.103510",
+      "paperId": "a611b362416fdc70131e35d2009e231e81faef42",
+      "title": "Prompt-based polyp segmentation during endoscopy.",
+      "year": 2025,
+      "venue": "Medical Image Analysis",
+      "externalIds": {
+        "DOI": "10.1016/j.media.2025.103510",
+        "CorpusId": 276708303,
+        "PubMed": "40073580"
+      },
+      "pdf": "https://figshare.com/articles/journal_contribution/Prompt-based_polyp_segmentation_during_endoscopy/28505570",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1016/j.compbiomed.2025.109672",
+      "paperId": "b05f62a43400b26f5ea2324618e4d9929ba90053",
+      "title": "Synthesized colonoscopy dataset from high-fidelity virtual colon with abnormal simulation",
+      "year": 2025,
+      "venue": "Comput. Biol. Medicine",
+      "externalIds": {
+        "DBLP": "journals/cbm/HeLYLGF25",
+        "DOI": "10.1016/j.compbiomed.2025.109672",
+        "CorpusId": 275620511,
+        "PubMed": "39826299"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/ICCE63647.2025.10930199",
+      "paperId": "a57ca4f6b6305a77f03c792bc4275fb6f93f995a",
+      "title": "Artificial Intelligence-Based Polyp Detection And Measurement Add-On System For Endoscopy",
+      "year": 2025,
+      "venue": "IEEE International Conference on Consumer Electronics",
+      "externalIds": {
+        "DBLP": "conf/iccel/KaoCCL25",
+        "DOI": "10.1109/ICCE63647.2025.10930199",
+        "CorpusId": 277319159
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1049/syb2.70031",
+      "paperId": "0c0e02b474aea12b7bdd38389a909d8ec0ded6ab",
+      "title": "MRANet: Multi‐Dimensional Residual Attentional Network for Precise Polyp Segmentation",
+      "year": 2025,
+      "venue": "IET Systems Biology",
+      "externalIds": {
+        "PubMedCentral": "12358241",
+        "DOI": "10.1049/syb2.70031",
+        "CorpusId": 280674476,
+        "PubMed": "40820286"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1049/syb2.70036",
+      "paperId": "8111dd69f9185f7bd2864a91421e12d3d1ad49fa",
+      "title": "Cascade Aggregation Network for Accurate Polyp Segmentation",
+      "year": 2025,
+      "venue": "IET Systems Biology",
+      "externalIds": {
+        "PubMedCentral": "12412043",
+        "DOI": "10.1049/syb2.70036",
+        "CorpusId": 281146776,
+        "PubMed": "40910502"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1049/htl2.70050",
+      "paperId": "338c561c3b72086494c72c96c29f1c910b76bbed",
+      "title": "PRISM: Past‐Regularized Iterative Self‐Distillation With Momentum for Polyp Segmentation",
+      "year": 2025,
+      "venue": "Healthcare technology letters",
+      "externalIds": {
+        "PubMedCentral": "12706544",
+        "DOI": "10.1049/htl2.70050",
+        "CorpusId": 283916868,
+        "PubMed": "41409574"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/ICICAT62666.2024.10923404",
+      "paperId": "2b510eced98f2cc8d664687ecce23b569ce06445",
+      "title": "Using Machine Learning to Identify Autism Spectrum Disorder Across All Ages",
+      "year": 2024,
+      "venue": "2024 International Conference on IoT, Communication and Automation Technology (ICICAT)",
+      "externalIds": {
+        "DOI": "10.1109/ICICAT62666.2024.10923404",
+        "CorpusId": 277192943
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/JBHI.2024.3500026",
+      "paperId": "23db03d9e26a3e0b2c8779ae8c0b87ccc05d3cf4",
+      "title": "PFPRNet: A Phase-Wise Feature Pyramid With Retention Network for Polyp Segmentation",
+      "year": 2024,
+      "venue": "IEEE journal of biomedical and health informatics",
+      "externalIds": {
+        "DBLP": "journals/titb/ChuLTL25",
+        "DOI": "10.1109/JBHI.2024.3500026",
+        "CorpusId": 274245349,
+        "PubMed": "40030242"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1016/j.media.2024.103379",
+      "paperId": "79fa42f7befddf42b740c66f099a0de1f7eef1db",
+      "title": "Multi-task learning with cross-task consistency for improved depth estimation in colonoscopy",
+      "year": 2024,
+      "venue": "Medical Image Anal.",
+      "externalIds": {
+        "DBLP": "journals/mia/ChavarriasSolanoBSA25",
+        "DOI": "10.1016/j.media.2024.103379",
+        "CorpusId": 274281661,
+        "PubMed": "39536401"
+      },
+      "pdf": "https://doi.org/10.1016/j.media.2024.103379",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2410.24181",
+      "paperId": "d15b795a74477a6219f098b73195a9eba4dea81a",
+      "title": "Federated Black-Box Adaptation for Semantic Segmentation",
+      "year": 2024,
+      "venue": "Neural Information Processing Systems",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2410-24181",
+        "ArXiv": "2410.24181",
+        "DOI": "10.48550/arXiv.2410.24181",
+        "CorpusId": 273707770
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/ICAST61769.2024.10856484",
+      "paperId": "cb64751bc5f5a0dd33779a13bd6c2b44c500846c",
+      "title": "Recognition of Colon Neoplasm using Contrast-Aware Capsule Network",
+      "year": 2024,
+      "venue": "International Conference on Awareness Science and Technology",
+      "externalIds": {
+        "DOI": "10.1109/ICAST61769.2024.10856484",
+        "CorpusId": 276020647
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1007/s11633-025-1597-6",
+      "paperId": "9815750309bc9affb34494713bbd968cb3d32632",
+      "title": "Frontiers in Intelligent Colonoscopy",
+      "year": 2024,
+      "venue": "Machine Intelligence Research",
+      "externalIds": {
+        "DBLP": "journals/ijautcomp/JiLXBKKF26",
+        "ArXiv": "2410.17241",
+        "DOI": "10.1007/s11633-025-1597-6",
+        "CorpusId": 273507716
+      },
+      "pdf": "https://doi.org/10.1007/s11633-025-1597-6",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1007/978-3-031-72390-2_47",
+      "paperId": "b22abcaaca1d00d37efb2d758489edd1df99cf59",
+      "title": "DB-SAM: Delving into High Quality Universal Medical Image Segmentation",
+      "year": 2024,
+      "venue": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2410-04172",
+        "ArXiv": "2410.04172",
+        "DOI": "10.1007/978-3-031-72390-2_47",
+        "CorpusId": 273186104
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/ICASSP49660.2025.10889662",
+      "paperId": "971170c164cb181a58d04ba1e42691a414957668",
+      "title": "Frequency-Based Federated Domain Generalization for Polyp Segmentation",
+      "year": 2024,
+      "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "externalIds": {
+        "DBLP": "conf/icassp/PanJBB25",
+        "ArXiv": "2410.02044",
+        "DOI": "10.1109/ICASSP49660.2025.10889662",
+        "CorpusId": 273097988
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2409.19934",
+      "paperId": "84eba5866ea8832437554bfbb79b1c6c936d4799",
+      "title": "Leveraging Pre-trained Models for Robust Federated Learning for Kidney Stone Type Recognition",
+      "year": 2024,
+      "venue": "Mexican International Conference on Artificial Intelligence",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2409-19934",
+        "ArXiv": "2409.19934",
+        "DOI": "10.48550/arXiv.2409.19934",
+        "CorpusId": 272986718
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.30574/wjarr.2024.23.3.2503",
+      "paperId": "b39bd0683ef92a3857bb3ab2761449f8b013b129",
+      "title": "Clinical nutrition approach to colon cancer",
+      "year": 2024,
+      "venue": "World Journal of Advanced Research and Reviews",
+      "externalIds": {
+        "DOI": "10.30574/wjarr.2024.23.3.2503",
+        "CorpusId": 272732570
+      },
+      "pdf": "https://wjarr.com/sites/default/files/WJARR-2024-2503.pdf",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.3389/fonc.2024.1417862",
+      "paperId": "8bbce2ee0e69914e9978cc15616b159f53a34c92",
+      "title": "A complete benchmark for polyp detection, segmentation and classification in colonoscopy images",
+      "year": 2024,
+      "venue": "Frontiers in Oncology",
+      "externalIds": {
+        "PubMedCentral": "11458519",
+        "DOI": "10.3389/fonc.2024.1417862",
+        "CorpusId": 272875068,
+        "PubMed": "39381041"
+      },
+      "pdf": "https://public-pages-files-2025.frontiersin.org/journals/oncology/articles/10.3389/fonc.2024.1417862/pdf",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1016/j.media.2024.103347",
+      "paperId": "5a638ebe7e0c1a5f77a0ff20c5f94d965db72119",
+      "title": "UM-Net: Rethinking ICGNet for polyp segmentation with uncertainty modeling",
+      "year": 2024,
+      "venue": "Medical Image Anal.",
+      "externalIds": {
+        "DBLP": "journals/mia/DuXCZLLL25",
+        "DOI": "10.1016/j.media.2024.103347",
+        "CorpusId": 272821997,
+        "PubMed": "39316997"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/ICASSP49660.2025.10887638",
+      "paperId": "4fe469147604fdd587f30ea49c91048e0a73016a",
+      "title": "Self-Prompting Polyp Segmentation in Colonoscopy Using Hybrid YOLO-SAM2 Model",
+      "year": 2024,
+      "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2409-09484",
+        "ArXiv": "2409.09484",
+        "DOI": "10.1109/ICASSP49660.2025.10887638",
+        "CorpusId": 272690079
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/ASIANCON62057.2024.10837715",
+      "paperId": "50b3a1b46c5b27843febced8b9cc1f9b9936733c",
+      "title": "Identification and Segmentation of Polyp Using Deep Learning Approaches",
+      "year": 2024,
+      "venue": "2024 4th Asian Conference on Innovation in Technology (ASIANCON)",
+      "externalIds": {
+        "DOI": "10.1109/ASIANCON62057.2024.10837715",
+        "CorpusId": 275787018
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2408.11701",
+      "paperId": "d9abf2302bffe4e7142897c4ca690e06ecaa7df9",
+      "title": "FedGS: Federated Gradient Scaling for Heterogeneous Medical Image Segmentation",
+      "year": 2024,
+      "venue": "ISIC/iMIMIC/EARTH/DeCaF@MICCAI",
+      "externalIds": {
+        "DBLP": "conf/miccai/SchutteCBS24",
+        "ArXiv": "2408.11701",
+        "DOI": "10.48550/arXiv.2408.11701",
+        "CorpusId": 271915722
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/ICHMS65439.2025.11154309",
+      "paperId": "860187cc1dd9224fc6a4f437743c764cd28d8351",
+      "title": "Polyp SAM 2: Advancing Zero-Shot Polyp Segmentation in Colorectal Cancer Detection",
+      "year": 2024,
+      "venue": "International Conferences on Human-Machine Systems",
+      "externalIds": {
+        "ArXiv": "2408.05892",
+        "DBLP": "conf/ichms/MansooriSAPM25",
+        "DOI": "10.1109/ICHMS65439.2025.11154309",
+        "CorpusId": 271855512
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2408.04759",
+      "paperId": "fb57e2b74ecd28ac6bf5679bf07b9955d9593a91",
+      "title": "Confident magnitude-based neural network pruning",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2408-04759",
+        "ArXiv": "2408.04759",
+        "DOI": "10.48550/arXiv.2408.04759",
+        "CorpusId": 271843454
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.3389/fonc.2024.1422942",
+      "paperId": "12ddb02efa8c671f782261d343aa4dda1d56fe68",
+      "title": "Assessing clinical efficacy of polyp detection models using open-access datasets",
+      "year": 2024,
+      "venue": "Frontiers in Oncology",
+      "externalIds": {
+        "PubMedCentral": "11324571",
+        "DOI": "10.3389/fonc.2024.1422942",
+        "CorpusId": 271655393,
+        "PubMed": "39148908"
+      },
+      "pdf": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11324571",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/TNNLS.2025.3645355",
+      "paperId": "9a41920b7bb1c98ed9f1e1811013e4bdbbfaab1f",
+      "title": "Exploiting Scale-Variant Attention for Segmenting Small Medical Objects",
+      "year": 2024,
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+      "externalIds": {
+        "ArXiv": "2407.07720",
+        "DOI": "10.1109/TNNLS.2025.3645355",
+        "CorpusId": 271088961,
+        "PubMed": "41525526"
+      },
+      "pdf": "https://arxiv.org/pdf/2407.07720",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1016/j.media.2024.103288",
+      "paperId": "17577dff9cdd67bb0e62e908eef3a4b185ff2f8d",
+      "title": "Know your orientation: A viewpoint-aware framework for polyp segmentation",
+      "year": 2024,
+      "venue": "Medical Image Anal.",
+      "externalIds": {
+        "DBLP": "journals/mia/CaiCHWZ24",
+        "DOI": "10.1016/j.media.2024.103288",
+        "CorpusId": 271554967,
+        "PubMed": "39096844"
+      },
+      "pdf": "https://doi.org/10.1016/j.media.2024.103288",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/EMBC53108.2024.10782682",
+      "paperId": "14ed32b37c0f70df3fd6a4c350dbaf9a45d5d84b",
+      "title": "Assessing the Impact of Federated Learning and Differential Privacy on Multi-centre Polyp Segmentation",
+      "year": 2024,
+      "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society",
+      "externalIds": {
+        "DBLP": "conf/embc/StelterCBS24",
+        "DOI": "10.1109/EMBC53108.2024.10782682",
+        "CorpusId": 274824156,
+        "PubMed": "40039412"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2406.19364",
+      "paperId": "a8ae3b72aedb71e60ac9a6e1291c12fdf085b1c0",
+      "title": "SimTxtSeg: Weakly-Supervised Medical Image Segmentation with Simple Text Cues",
+      "year": 2024,
+      "venue": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+      "externalIds": {
+        "DBLP": "conf/miccai/XieZZC24",
+        "ArXiv": "2406.19364",
+        "DOI": "10.48550/arXiv.2406.19364",
+        "CorpusId": 270764356
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1007/s00259-024-06731-9",
+      "paperId": "53209b4bf38561646ebcbd1bb5ae46c1569f1858",
+      "title": "Intraoperative near infrared functional imaging of rectal cancer using artificial intelligence methods - now and near future state of the art",
+      "year": 2024,
+      "venue": "European Journal of Nuclear Medicine and Molecular Imaging",
+      "externalIds": {
+        "PubMedCentral": "11300525",
+        "DOI": "10.1007/s00259-024-06731-9",
+        "CorpusId": 270378829,
+        "PubMed": "38858280"
+      },
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s00259-024-06731-9.pdf",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1007/s42979-024-02932-z",
+      "paperId": "7a933460931d1b608b8e5c3983d7f628de46b698",
+      "title": "Flexible Colon Polyp Detection: A Dual Mode Approach for Detection and Segmentation of Colon Polyps with Optional Inpainting for Specular Highlight Mitigation",
+      "year": 2024,
+      "venue": "SN Computer Science",
+      "externalIds": {
+        "DBLP": "journals/sncs/SushamaM24",
+        "DOI": "10.1007/s42979-024-02932-z",
+        "CorpusId": 270381024
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/ISBI56570.2024.10635300",
+      "paperId": "eddad5977d63b1f5f530f3fe2c32bfb4bff0014f",
+      "title": "Sosegformer: A Cross-Scale Feature Correlated Network For Small Medical Object Segmentation",
+      "year": 2024,
+      "venue": "IEEE International Symposium on Biomedical Imaging",
+      "externalIds": {
+        "DBLP": "conf/isbi/DaiWLZWWL24",
+        "DOI": "10.1109/ISBI56570.2024.10635300",
+        "CorpusId": 271936127
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1371/journal.pone.0302800",
+      "paperId": "1ee61b3c0f7dc21ac40022484376691fd877f474",
+      "title": "Colonoscopy polyp classification via enhanced scattering wavelet Convolutional Neural Network",
+      "year": 2024,
+      "venue": "medRxiv",
+      "externalIds": {
+        "PubMedCentral": "11469526",
+        "DOI": "10.1371/journal.pone.0302800",
+        "CorpusId": 269237016,
+        "PubMed": "39392783"
+      },
+      "pdf": "https://doi.org/10.1371/journal.pone.0302800",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/TCSVT.2023.3300846",
+      "paperId": "cb7d7635860deadb4caacf1a7b37510142bbac32",
+      "title": "ERDUnet: An Efficient Residual Double-Coding Unet for Medical Image Segmentation",
+      "year": 2024,
+      "venue": "IEEE transactions on circuits and systems for video technology (Print)",
+      "externalIds": {
+        "DBLP": "journals/tcsv/LiZX24",
+        "DOI": "10.1109/TCSVT.2023.3300846",
+        "CorpusId": 260389031
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/JBHI.2024.3381891",
+      "paperId": "f9e0e90998adfe5acdfd5a1c4a973a9b81d0b449",
+      "title": "WDFF-Net: Weighted Dual-Branch Feature Fusion Network for Polyp Segmentation With Object-Aware Attention Mechanism",
+      "year": 2024,
+      "venue": "IEEE journal of biomedical and health informatics",
+      "externalIds": {
+        "DBLP": "journals/titb/CaoWQZLZYW24",
+        "DOI": "10.1109/JBHI.2024.3381891",
+        "CorpusId": 268731915,
+        "PubMed": "38536686"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/ICDT61202.2024.10488975",
+      "paperId": "ecc0886493491899d6cf7a017b359382599bbe27",
+      "title": "Polyp Detection Using U-Net Neural Network Based Algorithm",
+      "year": 2024,
+      "venue": "International Conference on Database Theory",
+      "externalIds": {
+        "DOI": "10.1109/ICDT61202.2024.10488975",
+        "CorpusId": 269091579
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1038/s41598-024-56264-2",
+      "paperId": "69d306639b5b527f9466292bf33c2a6fe3e19b3b",
+      "title": "Dual ensemble system for polyp segmentation with submodels adaptive selection ensemble",
+      "year": 2024,
+      "venue": "Scientific Reports",
+      "externalIds": {
+        "PubMedCentral": "10940608",
+        "DOI": "10.1038/s41598-024-56264-2",
+        "CorpusId": 268414754,
+        "PubMed": "38485963"
+      },
+      "pdf": "https://www.nature.com/articles/s41598-024-56264-2.pdf",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1038/s41597-024-03359-0",
+      "paperId": "493e9d268f8c40383d5630a871cc9dc79261cb5a",
+      "title": "REAL-Colon: A dataset for developing real-world AI applications in colonoscopy",
+      "year": 2024,
+      "venue": "Scientific Data",
+      "externalIds": {
+        "PubMedCentral": "11127922",
+        "DBLP": "journals/corr/abs-2403-02163",
+        "ArXiv": "2403.02163",
+        "DOI": "10.1038/s41597-024-03359-0",
+        "CorpusId": 268247532,
+        "PubMed": "38796533"
+      },
+      "pdf": "https://www.nature.com/articles/s41597-024-03359-0.pdf",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1007/s11548-024-03244-6",
+      "paperId": "68bc4ac741e6690ff9996a6561869726ef454312",
+      "title": "PolypNextLSTM: a lightweight and fast polyp video segmentation network using ConvNext and ConvLSTM",
+      "year": 2024,
+      "venue": "International Journal of Computer Assisted Radiology and Surgery",
+      "externalIds": {
+        "DBLP": "journals/cars/BhattacharyaRBMGS24",
+        "ArXiv": "2402.11585",
+        "PubMedCentral": "11442634",
+        "DOI": "10.1007/s11548-024-03244-6",
+        "CorpusId": 267750416,
+        "PubMed": "39115609"
+      },
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s11548-024-03244-6.pdf",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2401.11734",
+      "paperId": "cff8f8953c1ddf7dab1738c98d1f3ad7e3e0fb6a",
+      "title": "Colorectal Polyp Segmentation in the Deep Learning Era: A Comprehensive Survey",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2401-11734",
+        "ArXiv": "2401.11734",
+        "DOI": "10.48550/arXiv.2401.11734",
+        "CorpusId": 267069452
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2401.10373",
+      "paperId": "f99f9c506224087a1e13e75374cc73563081f8ad",
+      "title": "Harmonized Spatial and Spectral Learning for Robust and Generalized Medical Image Segmentation",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2401.10373",
+        "DBLP": "journals/corr/abs-2401-10373",
+        "DOI": "10.48550/arXiv.2401.10373",
+        "CorpusId": 267060977
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1007/s13246-023-01368-8",
+      "paperId": "8886106b6344bdc60e62ab83497776f169b2bb1e",
+      "title": "ColonGen: an efficient polyp segmentation system for generalization improvement using a new comprehensive dataset",
+      "year": 2024,
+      "venue": "Physical and Engineering Sciences in Medicine",
+      "externalIds": {
+        "DOI": "10.1007/s13246-023-01368-8",
+        "CorpusId": 266984192,
+        "PubMed": "38224384"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/BCD57833.2023.10466309",
+      "paperId": "c840aba36dbb7804fa88b8dc4da3fbf469f7c5e8",
+      "title": "Polyp Instance Segmentation in Colonoscopy Images: A Benchmark",
+      "year": 2023,
+      "venue": "International Conference on Big Data, Cloud Computing, Data Science & Engineering",
+      "externalIds": {
+        "DBLP": "conf/bcd/NguyenPDSNT23",
+        "DOI": "10.1109/BCD57833.2023.10466309",
+        "CorpusId": 268545670
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1007/s44267-024-00071-w",
+      "paperId": "a77493bdbf9f980020987d5a6a78efc03f1db09e",
+      "title": "A survey on deep learning for polyp segmentation: techniques, challenges and future trends",
+      "year": 2023,
+      "venue": "Visual Intelligence",
+      "externalIds": {
+        "ArXiv": "2311.18373",
+        "DBLP": "journals/corr/abs-2311-18373",
+        "DOI": "10.1007/s44267-024-00071-w",
+        "CorpusId": 265506316
+      },
+      "pdf": "https://link.springer.com/content/pdf/10.1007/s44267-024-00071-w.pdf",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/JBHI.2023.3334240",
+      "paperId": "55b71090b8ddc204fce3742475b53d9f5e36e0d8",
+      "title": "ECC-PolypDet: Enhanced CenterNet With Contrastive Learning for Automatic Polyp Detection",
+      "year": 2023,
+      "venue": "IEEE journal of biomedical and health informatics",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2401-04961",
+        "ArXiv": "2401.04961",
+        "DOI": "10.1109/JBHI.2023.3334240",
+        "CorpusId": 265307640,
+        "PubMed": "37983159"
+      },
+      "pdf": "https://arxiv.org/pdf/2401.04961",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1016/j.neunet.2023.11.050",
+      "paperId": "f36c3eb459edc19fac8a28c9093b4501e2f3efc9",
+      "title": "Boundary uncertainty aware network for automated polyp segmentation",
+      "year": 2023,
+      "venue": "Neural Networks",
+      "externalIds": {
+        "DBLP": "journals/nn/YueZYZTYW24",
+        "DOI": "10.1016/j.neunet.2023.11.050",
+        "CorpusId": 265440046,
+        "PubMed": "38029720"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1007/s11548-024-03213-z",
+      "paperId": "aa28c6562a28726b976ab82f87f712a654dd1bd6",
+      "title": "Using diffusion models to generate synthetic labeled data for medical image segmentation",
+      "year": 2023,
+      "venue": "International Journal of Computer Assisted Radiology and Surgery",
+      "externalIds": {
+        "DBLP": "journals/cars/SaragihHT24",
+        "ArXiv": "2310.16794",
+        "DOI": "10.1007/s11548-024-03213-z",
+        "CorpusId": 270616593,
+        "PubMed": "38900372"
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1007/s10278-023-00844-7",
+      "paperId": "5e9f5eb9916173b29d4dd182b65caf6c089fb8bc",
+      "title": "Public Imaging Datasets of Gastrointestinal Endoscopy for Artificial Intelligence: a Review",
+      "year": 2023,
+      "venue": "Journal of digital imaging",
+      "externalIds": {
+        "DBLP": "journals/jdi/ZhuGLYLXXZ23",
+        "DOI": "10.1007/s10278-023-00844-7",
+        "CorpusId": 262126324,
+        "PubMed": "37735308"
+      },
+      "pdf": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10584770/pdf/10278_2023_Article_844.pdf",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2309.06807",
+      "paperId": "d6a3b485b98e50093a9fc496594c3eea94c4dd73",
+      "title": "Bayesian uncertainty-weighted loss for improved generalisability on polyp segmentation task",
+      "year": 2023,
+      "venue": "CLIP/FAIMI/EPIMI@MICCAI",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2309-06807",
+        "ArXiv": "2309.06807",
+        "DOI": "10.48550/arXiv.2309.06807",
+        "CorpusId": 261705764
+      },
+      "pdf": "https://arxiv.org/pdf/2309.06807",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2309.05261",
+      "paperId": "b9d01c80d3db1ecee4b9094755f7b59c8804127d",
+      "title": "Gall Bladder Cancer Detection from US Images with Only Image Level Labels",
+      "year": 2023,
+      "venue": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2309-05261",
+        "ArXiv": "2309.05261",
+        "DOI": "10.48550/arXiv.2309.05261",
+        "CorpusId": 261682505
+      },
+      "pdf": "https://arxiv.org/pdf/2309.05261",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2308.15881",
+      "paperId": "3fb15a344be78bf2537be2e2465a5c4637446597",
+      "title": "Interpretability-guided Data Augmentation for Robust Segmentation in Multi-centre Colonoscopy Data",
+      "year": 2023,
+      "venue": "MLMI@MICCAI",
+      "externalIds": {
+        "ArXiv": "2308.15881",
+        "DBLP": "conf/mlmi-ws/CorbettaBS23",
+        "DOI": "10.48550/arXiv.2308.15881",
+        "CorpusId": 261338965
+      },
+      "pdf": "https://arxiv.org/pdf/2308.15881",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2308.03709",
+      "paperId": "87952384f7c6372a6138caab5e8d69608b1804fc",
+      "title": "Prototype Learning for Out-of-Distribution Polyp Segmentation",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2308.03709",
+        "DBLP": "journals/corr/abs-2308-03709",
+        "DOI": "10.48550/arXiv.2308.03709",
+        "CorpusId": 260680989
+      },
+      "pdf": "https://arxiv.org/pdf/2308.03709",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1016/j.media.2024.103307",
+      "paperId": "4e1bbadfa1f49b1ac0112ed5df47998965239e59",
+      "title": "Validating polyp and instrument segmentation methods in colonoscopy through Medico 2020 and MedAI 2021 Challenges",
+      "year": 2023,
+      "venue": "Medical Image Anal.",
+      "externalIds": {
+        "DBLP": "journals/mia/JhaSBBRHTTKJPBAATKNSNGJ25",
+        "ArXiv": "2307.16262",
+        "DOI": "10.1016/j.media.2024.103307",
+        "CorpusId": 260334421,
+        "PubMed": "39303447"
+      },
+      "pdf": "https://doi.org/10.1016/j.media.2024.103307",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/TMI.2023.3299206",
+      "paperId": "e6ffea5f95a2e62958b7154794a19ae43abe1d0f",
+      "title": "FedDP: Dual Personalization in Federated Medical Image Segmentation",
+      "year": 2023,
+      "venue": "IEEE Transactions on Medical Imaging",
+      "externalIds": {
+        "DBLP": "journals/tmi/WangJSW24",
+        "DOI": "10.1109/TMI.2023.3299206",
+        "CorpusId": 260200837,
+        "PubMed": "37494156"
+      },
+      "pdf": "https://discovery.ucl.ac.uk/10175394/1/FedDP_Dual_Personalization_in_Federated_Medical_Image_Segmentation.pdf",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2307.08140",
+      "paperId": "ca2b5490677b97b1b26cbf9bb9a8b73e27fb224a",
+      "title": "GastroVision: A Multi-class Endoscopy Image Dataset for Computer Aided Gastrointestinal Disease Detection",
+      "year": 2023,
+      "venue": "ML4MHD",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2307-08140",
+        "ArXiv": "2307.08140",
+        "DOI": "10.48550/arXiv.2307.08140",
+        "CorpusId": 259937120
+      },
+      "pdf": "https://arxiv.org/pdf/2307.08140",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2306.08720",
+      "paperId": "7885da0d6e259771a6b040291586a68e22b85dc4",
+      "title": "A Client-server Deep Federated Learning for Cross-domain Surgical Image Segmentation",
+      "year": 2023,
+      "venue": "DEMI@MICCAI",
+      "externalIds": {
+        "ArXiv": "2306.08720",
+        "DBLP": "conf/miccai/SubediGANSB23",
+        "DOI": "10.48550/arXiv.2306.08720",
+        "CorpusId": 259165006
+      },
+      "pdf": "http://arxiv.org/pdf/2306.08720",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1038/s41598-023-35910-1",
+      "paperId": "b44575bd3d23b21144af73de8ec0002d78cb9c6a",
+      "title": "Detection of autism spectrum disorder (ASD) in children and adults using machine learning",
+      "year": 2023,
+      "venue": "Scientific Reports",
+      "externalIds": {
+        "PubMedCentral": "10264444",
+        "DOI": "10.1038/s41598-023-35910-1",
+        "CorpusId": 259155154,
+        "PubMed": "37311766"
+      },
+      "pdf": "https://www.nature.com/articles/s41598-023-35910-1.pdf",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/EMBC53108.2024.10781511",
+      "paperId": "802e3e46fffd3e0244368d95a763543fd0c9e7ff",
+      "title": "TransRUPNet for Improved Polyp Segmentation",
+      "year": 2023,
+      "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society",
+      "externalIds": {
+        "ArXiv": "2306.02176",
+        "DBLP": "conf/embc/JhaTBBB24",
+        "DOI": "10.1109/EMBC53108.2024.10781511",
+        "CorpusId": 259076175,
+        "PubMed": "40038943"
+      },
+      "pdf": "http://arxiv.org/pdf/2306.02176",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2306.00451",
+      "paperId": "da4fbb146eed390fbacc17a78da086c1c6e5dfd0",
+      "title": "S2ME: Spatial-Spectral Mutual Teaching and Ensemble Learning for Scribble-supervised Polyp Segmentation",
+      "year": 2023,
+      "venue": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+      "externalIds": {
+        "ArXiv": "2306.00451",
+        "DBLP": "journals/corr/abs-2306-00451",
+        "DOI": "10.48550/arXiv.2306.00451",
+        "CorpusId": 258999273
+      },
+      "pdf": "http://arxiv.org/pdf/2306.00451",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/SPIN57001.2023.10116179",
+      "paperId": "ae980cb2189a90f714a9e08c37647c6f93d3c2de",
+      "title": "Real-time deployment and test set analysis of automatic colonoscopy polyp identification architecture",
+      "year": 2023,
+      "venue": "SPIN",
+      "externalIds": {
+        "DOI": "10.1109/SPIN57001.2023.10116179",
+        "CorpusId": 258592452
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2303.07428",
+      "paperId": "f99848477b7f69d8847a68360eea4c38cc55e171",
+      "title": "TransNetR: Transformer-based Residual Network for Polyp Segmentation with Multi-Center Out-of-Distribution Testing",
+      "year": 2023,
+      "venue": "International Conference on Medical Imaging with Deep Learning",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2303-07428",
+        "ArXiv": "2303.07428",
+        "DOI": "10.48550/arXiv.2303.07428",
+        "CorpusId": 257505203
+      },
+      "pdf": "http://arxiv.org/pdf/2303.07428",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1038/s41598-024-52063-x",
+      "paperId": "a23b4ae7d078e92dd5420fe7eebc720d896658a4",
+      "title": "Assessing generalisability of deep learning-based polyp detection and segmentation methods through a computer vision challenge",
+      "year": 2022,
+      "venue": "Scientific Reports",
+      "externalIds": {
+        "PubMedCentral": "10805888",
+        "ArXiv": "2202.12031",
+        "DBLP": "journals/corr/abs-2202-12031",
+        "DOI": "10.1038/s41598-024-52063-x",
+        "CorpusId": 247084187,
+        "PubMed": "38263232"
+      },
+      "pdf": "https://www.nature.com/articles/s41598-024-52063-x.pdf",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/ACCESS.2026.3650810",
+      "paperId": "25ae43b83a3693da6a90ac3673c2108242952d69",
+      "title": "Federated Generative Models in Medical Imaging: Current Advances, Challenges, and Future Directions",
+      "year": 2026,
+      "venue": "IEEE Access",
+      "externalIds": {
+        "DBLP": "journals/access/MahmoodAJKA26",
+        "DOI": "10.1109/ACCESS.2026.3650810",
+        "CorpusId": 284518529
+      },
+      "pdf": "https://doi.org/10.1109/access.2026.3650810",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1016/j.bspc.2026.110621",
+      "paperId": "1314fecb3a2766559e66a7b19c391b92d684c1f7",
+      "title": "Dual-memory synergy and hierarchical spatio-temporal association for video detection of colorectal polyps",
+      "year": 2026,
+      "venue": "Biomedical Signal Processing and Control",
+      "externalIds": {
+        "DOI": "10.1016/j.bspc.2026.110621",
+        "CorpusId": 289056605
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/TIM.2025.3550626",
+      "paperId": "766610f3f4d9251b8e9fd86cd6ffb86d42a9f8f4",
+      "title": "Attention-Guided Asymmetric Multiscale Polyp Segmentation Network",
+      "year": 2025,
+      "venue": "IEEE Transactions on Instrumentation and Measurement",
+      "externalIds": {
+        "DBLP": "journals/tim/KhanFU25",
+        "DOI": "10.1109/TIM.2025.3550626",
+        "CorpusId": 277039150
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/ACCESS.2025.3552613",
+      "paperId": "a281e6db569fdd9a1d6796b7293007865378e897",
+      "title": "A Novel Dataset for Polyp Segmentation and Detection Using a Vision-Language Model",
+      "year": 2025,
+      "venue": "IEEE Access",
+      "externalIds": {
+        "DBLP": "journals/access/AlilouMASK25",
+        "DOI": "10.1109/ACCESS.2025.3552613",
+        "CorpusId": 277120532
+      },
+      "pdf": "https://doi.org/10.1109/access.2025.3552613",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/OJCS.2025.3592204",
+      "paperId": "65019c4aee9fc2e9fb500f721076f5a61c6ab0d4",
+      "title": "XPolypNet: A U-Net-Based Model for Semantic Segmentation of Gastrointestinal Polyps With Explainable AI",
+      "year": 2025,
+      "venue": "IEEE Open Journal of the Computer Society",
+      "externalIds": {
+        "DBLP": "journals/ojcomps/ArnobMHM25",
+        "DOI": "10.1109/OJCS.2025.3592204",
+        "CorpusId": 280039542
+      },
+      "pdf": "https://doi.org/10.1109/ojcs.2025.3592204",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1016/j.procs.2025.09.540",
+      "paperId": "d317a06d49f243de33a616bf5aa637554ba9bdda",
+      "title": "PraNet-based Gastrointestinal Polyp Segmentation on Heterogeneous Datasets: Study of Augmentation Impact on Performance",
+      "year": 2025,
+      "venue": "International Conference on Knowledge-Based Intelligent Information & Engineering Systems",
+      "externalIds": {
+        "DBLP": "conf/kes/CristeaSVI25",
+        "DOI": "10.1016/j.procs.2025.09.540",
+        "CorpusId": 282878909
+      },
+      "pdf": "https://doi.org/10.1016/j.procs.2025.09.540",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2511.16618",
+      "paperId": "6c522555ee11664dcf1e56966f041aacb407e0ec",
+      "title": "SAM2S: Segment Anything in Surgical Videos via Semantic Long-term Tracking",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2511-16618",
+        "DOI": "10.48550/arXiv.2511.16618",
+        "CorpusId": 283109919
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2407.07720",
+      "paperId": "2518e1d6ee9ce81bfa3c826b5652f3586ed1d35e",
+      "title": "SvANet: A Scale-variant Attention-based Network for Small Medical Object Segmentation",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2407-07720",
+        "DOI": "10.48550/arXiv.2407.07720",
+        "CorpusId": 271950216
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.1109/ACCESS.2024.3402818",
+      "paperId": "fb5b362af956f73abce254f2d946e2da582cbcfa",
+      "title": "Automated Detection of Colorectal Polyp Utilizing Deep Learning Methods With Explainable AI",
+      "year": 2024,
+      "venue": "IEEE Access",
+      "externalIds": {
+        "DBLP": "journals/access/AhamedINKAK24",
+        "DOI": "10.1109/ACCESS.2024.3402818",
+        "CorpusId": 269946554
+      },
+      "pdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10534764.pdf",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2304.12306",
+      "paperId": "4dd869a2c17cacd03b3e8a9b7efcd48f40651925",
+      "title": "Segment Anything in Medical Images",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2304-12306",
+        "DOI": "10.48550/arXiv.2304.12306",
+        "CorpusId": 258298289
+      },
+      "pdf": "https://arxiv.org/pdf/2304.12306",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "10.48550/arXiv.2307.16262",
+      "paperId": "b0e6452a075b9b9ca5bbff9c18c08220c22a515d",
+      "title": "An objective validation of polyp and instrument segmentation methods in colonoscopy through Medico 2020 polyp segmentation and MedAI 2021 transparency challenges",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2307-16262",
+        "DOI": "10.48550/arXiv.2307.16262",
+        "CorpusId": 281527364
+      },
+      "pdf": "https://arxiv.org/pdf/2307.16262",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "Temporal Context Framework for Endoscopy Artefact Segmentation and Detection",
+      "paperId": "7fca55300b00eaf4bde85b4b9cb2c3b896f635cc",
+      "title": "Temporal Context Framework for Endoscopy Artefact Segmentation and Detection",
+      "year": 2022,
+      "venue": "EndoCV@ISBI",
+      "externalIds": {
+        "DBLP": "conf/isbi/YeMLWL22",
+        "CorpusId": 249680411
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "Computerized Medical Imaging and Graphics",
+      "paperId": "05479ed680bd5d1fac380d073f22b4bc46e12226",
+      "title": "Computerized Medical Imaging and Graphics",
+      "year": null,
+      "venue": "",
+      "externalIds": {
+        "CorpusId": 281393054
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "SvANet: A Scale-variant Attention-based Network for Small Medical Object Segmentation",
+      "paperId": "dc626a3ecc3d4ef57155dc060b27282aa85dcc08",
+      "title": "SvANet: A Scale-variant Attention-based Network for Small Medical Object Segmentation",
+      "year": null,
+      "venue": "",
+      "externalIds": {
+        "CorpusId": 271950217
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "TherapeuTic advances in Gastrointestinal endoscopy",
+      "paperId": "6103f7e4ff101c54880d42bcc6730047f9e9fd48",
+      "title": "TherapeuTic advances in Gastrointestinal endoscopy",
+      "year": null,
+      "venue": "",
+      "externalIds": {
+        "CorpusId": 275095482
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "From out-of-distribution detection to quality control",
+      "paperId": "25dc30a330de59ba3e6444724c89cf19fc4972e9",
+      "title": "From out-of-distribution detection to quality control",
+      "year": null,
+      "venue": "",
+      "externalIds": {
+        "CorpusId": 276606591
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "From Out-of-distribution detection to Quality Control",
+      "paperId": "e86ed583795c63507248d5527d9784a44a372d5c",
+      "title": "From Out-of-distribution detection to Quality Control",
+      "year": null,
+      "venue": "",
+      "externalIds": {
+        "CorpusId": 282814507
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "From out-of-distribution detection to quality control",
+      "paperId": "a2e05f2ebc73c4bffb299b5bed7b95ca4ae16984",
+      "title": "From out-of-distribution detection to quality control",
+      "year": null,
+      "venue": "",
+      "externalIds": {
+        "CorpusId": 285817065
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "From out-of-distribution detection to quality control",
+      "paperId": "a45c32806b39c83f81b8e92f2558158b7df53095",
+      "title": "From out-of-distribution detection to quality control",
+      "year": null,
+      "venue": "",
+      "externalIds": {
+        "CorpusId": 286709623
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    },
+    {
+      "key": "Medical Image Analysis",
+      "paperId": "982deeb6c625eb0c8966cae1147cfae08bfa3014",
+      "title": "Medical Image Analysis",
+      "year": null,
+      "venue": "",
+      "externalIds": {
+        "CorpusId": 257482297
+      },
+      "pdf": "",
+      "source_query": "DOI:10.1038/s41597-023-01981-y",
+      "source_queries": [
+        "DOI:10.1038/s41597-023-01981-y",
+        "ARXIV:2106.04463"
+      ]
+    }
+  ]
+}
