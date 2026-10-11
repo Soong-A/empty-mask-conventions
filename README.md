@@ -225,7 +225,17 @@ with the `mask` geometry changes its HD95 values by about 0.5 px and no rank.
   single-frame release `PolypGen2021_MultiCenterData_v3` (1537 frames, centres C1-C6).
 * **SIIM-ACR Pneumothorax Segmentation** (Kaggle, 2019): the DICOM images and `train-rle.csv`.
 
-Neither dataset is redistributed here. `splits/` fixes every split at the frame level:
+Neither dataset is redistributed here: the repository contains no image, mask or run-length
+annotation, only frame identifiers and per-image counts derived from the annotations (split
+manifests and records).
+
+* PolypGen is released under CC BY 4.0 for research and educational use; users must cite Ali et al.
+  (2023). The records and manifests here are derived from it (resized to 256 x 256; Section 6.1).
+* SIIM-ACR is governed by the Kaggle competition rules, which permit use for academic research and
+  prohibit redistributing the competition data. Obtain the images and `train-rle.csv` from Kaggle
+  after accepting the rules.
+
+`splits/` fixes every split at the frame level:
 
 * `splits/polypgen_frames.csv`: frame, centre, source image and mask, mixed-partition split,
   centre-held-out split, and whether the released and the evaluated mask are empty.
