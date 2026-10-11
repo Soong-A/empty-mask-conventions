@@ -1,5 +1,7 @@
 # When empty predictions win: empty-mask conventions in medical image segmentation
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23296310.svg)](https://doi.org/10.5281/zenodo.23296310)
+
 Code and data for
 
 > Yurong Song, Zhewei Chen, Jianbin Wu. **When empty predictions win: Empty-mask conventions alter
@@ -421,6 +423,23 @@ follows the LB-UNet release.
   journal = {Artificial Intelligence in Medicine},
   note    = {Submitted},
   year    = {2026}
+}
+```
+
+The version used in the paper is archived on Zenodo as release v1.0,
+[doi:10.5281/zenodo.23296310](https://doi.org/10.5281/zenodo.23296310). The concept DOI
+[10.5281/zenodo.23296309](https://doi.org/10.5281/zenodo.23296309) always resolves to the latest version.
+
+```bibtex
+@software{song2026emptymaskcode,
+  author    = {Song, Yurong and Chen, Zhewei and Wu, Jianbin},
+  title     = {empty-mask-conventions: code and per-image records for
+               ``When empty predictions win''},
+  publisher = {Zenodo},
+  version   = {v1.0},
+  year      = {2026},
+  doi       = {10.5281/zenodo.23296310},
+  url       = {https://doi.org/10.5281/zenodo.23296310}
 }
 ```
 
