@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code or the per-image records, please cite the paper below."
+title: "empty-mask-conventions: code and per-image records for 'When empty predictions win'"
+type: software
+license: MIT
+repository-code: "https://github.com/Soong-A/empty-mask-conventions"
+authors:
+  - family-names: Song
+    given-names: Yurong
+    affiliation: "College of Computer Science and Technology, Zhejiang Normal University"
+    orcid: "https://orcid.org/0009-0000-9731-0029"
+  - family-names: Chen
+    given-names: Zhewei
+  - family-names: Wu
+    given-names: Jianbin
+    affiliation: "College of Computer Science and Technology, Zhejiang Normal University"
+keywords:
+  - medical image segmentation
+  - evaluation metrics
+  - empty masks
+  - Dice coefficient
+  - Hausdorff distance
+  - reproducibility
+preferred-citation:
+  type: article
+  title: "When empty predictions win: Empty-mask conventions alter model rankings and evaluated subsets in medical image segmentation"
+  authors:
+    - family-names: Song
+      given-names: Yurong
+    - family-names: Chen
+      given-names: Zhewei
+    - family-names: Wu
+      given-names: Jianbin
+  journal: "Artificial Intelligence in Medicine"
+  year: 2026
+  notes: "Submitted"
