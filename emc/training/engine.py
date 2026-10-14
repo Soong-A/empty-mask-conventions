@@ -72,7 +72,7 @@ def evaluate(loader, model, key: str, device, threshold: float = 0.5) -> dict:
 
     miou / dice: per-image IoU and Dice with additive smoothing 1e-5 (two empty masks
     score 1), averaged over all images; dice_pos: Dice over images with a non-empty
-    reference; q and r0 as in Section 3.3.
+    reference; q and r0 as in Section 2.4.
     """
     model.eval()
     eps = 1e-5

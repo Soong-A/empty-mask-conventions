@@ -48,7 +48,7 @@ def n_reordered(a: dict, b: dict) -> int:
 
 
 # ---------------------------------------------------------------------------
-# Table 4 and Section 4.2-4.4
+# Table 4, Sections 3.2-3.4 and 3.6, 4.3, Appendices A.2 and B.1
 # ---------------------------------------------------------------------------
 
 def table4(panels: dict) -> None:
@@ -61,7 +61,8 @@ def table4(panels: dict) -> None:
         best = {c: (s[c].idxmax() if c.startswith("dice") else s[c].idxmin())
                 for c in ("dice_pos", "dice_c1", "hd95_X", "hd95_P362")}
         for m, r in s.iterrows():
-            rows.append([m, cell(fmt(100 * r.q, 2)), cell(fmt(100 * r.r0, 1)), cell(fmt(r.n_det, 1)),
+            rows.append([m, cell(fmt(100 * r.q, 2)), cell(fmt(100 * r.r0, 1)),
+                         cell(fmt(100 * (1 - r.q), 2)), cell(fmt(100 * (1 - r.r0), 1)), cell(fmt(r.n_det, 1)),
                          cell(fmt(r.dice_pos, 3), m == best["dice_pos"]),
                          cell(fmt(r.dice_c0, 3)),
                          cell(fmt(r.dice_c1, 3), m == best["dice_c1"], rk_c1[m]),
@@ -78,7 +79,7 @@ def table4(panels: dict) -> None:
     write_tex("table4_main", rows, footer=footer)
     NUM["table4"] = {"pairs_reordered_c": reorder_c, "pairs_reordered_deletion_vs_diag": reorder_x}
 
-    # Section 4.2: reversals within individual training seeds
+    # Appendix B.1: reversals within individual training seeds
     within = {}
     for key, (runs, s) in panels.items():
         out = {}
@@ -103,9 +104,11 @@ def table4(panels: dict) -> None:
     _, s_a = panels["A"]
     _, s_b = panels["B"]
     share = (s_c.N_neg / s_c.N * (1 - s_c.r0) / s_c.dice_c1)
-    NUM["section4_2"] = {
+    NUM["appendixB_1_seeds"] = {
         "reversals_within_seeds": within,
         "siim_reversed_pairs_seed_stable_under_c1_and_diag": stable,
+    }
+    NUM["section3_2"] = {
         "siim_empty_reference_share_of_dice_c1_pct": [round(100 * share.min()), round(100 * share.max())],
         "panelB_models_r0_above_95pct": int((s_b.r0 > 0.95).sum()),
         "panelB_unetpp_gain_c1_minus_c0": fmt(s_b.at["UNet++", "dice_c1"] - s_b.at["UNet++", "dice_c0"], 3),
@@ -113,14 +116,14 @@ def table4(panels: dict) -> None:
                                          fmt(s_a.at["PRISM", "dice_pos"], 3)],
     }
 
-    # Section 4.3
-    gap = {k: (s.hd95_P362 - s.hd95_X) for k, (_, s) in panels.items()}
+    # Section 3.3
+    gap ={k: (s.hd95_P362 - s.hd95_X) for k, (_, s) in panels.items()}
     spread_pos = {k: s.hd95_pos.max() - s.hd95_pos.min() for k, (_, s) in panels.items()}
     frames = {k: [fmt(s.n_det.min(), 0), fmt(s.n_det.max(), 0), int(s.N_pos.iloc[0])]
               for k, (_, s) in panels.items()}
     worst_q = s_c.q.nlargest(2).index.tolist()
     best_x = s_c.hd95_X.nsmallest(2).index.tolist()
-    NUM["section4_3"] = {
+    NUM["section3_3"] = {
         "deletion_to_diag_shift_px": {k: [fmt(gap[k].min(), 0), fmt(gap[k].max(), 0)] for k in ("A", "C")},
         "spread_on_nonempty_refs_px": {k: fmt(spread_pos[k], 0) for k in ("A", "C")},
         "siim_P128_P256_reproduce_diag_ranking": all(
@@ -132,14 +135,14 @@ def table4(panels: dict) -> None:
         "siim_q_of_those_pct": [fmt(100 * s_c.at[m, "q"], 0) for m in worst_q],
     }
 
-    # Section 4.4: the always-empty predictor scores N0/N under c = 1
+    # Section 3.4: the always-empty predictor scores N0/N under c = 1
     empty_score, beats = {}, {}
     for k, (_, s) in panels.items():
         f = float((s.N_neg / s.N).iloc[0])
         empty_score[k] = fmt(f, 3)
         beats[k] = int((s.dice_c1 < f).sum())
     ratio = float((s_c.N_neg / s_c.N_pos).iloc[0])
-    NUM["section4_4"] = {
+    NUM["section3_4"] = {
         "always_empty_dice": empty_score,
         "models_below_always_empty": beats,
         "siim_best_model_dice_c1": fmt(s_c.dice_c1.max(), 3),
@@ -147,21 +150,27 @@ def table4(panels: dict) -> None:
         "siim_models_that_cannot_exceed_even_with_dice_pos_1": int((1.0 / s_c.r0 < ratio).sum()),
     }
 
-    # Section 4.6: recovery window for non-empty-reference overlap
-    NUM["section4_6"] = {"overlap_window": {k: fmt(min(1.0, float((s.N_neg / s.N_pos).iloc[0])), 3)
+    # Section 3.6: recovery window for non-empty-reference overlap
+    NUM["section3_6"] = {"overlap_window": {k: fmt(min(1.0, float((s.N_neg / s.N_pos).iloc[0])), 3)
                                             for k, (_, s) in panels.items()}}
 
-    # Section 5.3: checkpoint criterion share and triage illustration
+    # Appendix A.2: share of the checkpoint criterion from empty references
     frames_df = pd.read_csv(SPLITS / "polypgen_frames.csv", dtype=str)
     c4_val = frames_df[frames_df.c4 == "val"]
     f_val = (c4_val.mask_empty == "1").mean()
-    per_1000 = 1000 * float((s_c.N_pos / s_c.N).iloc[0])
-    NUM["section5_3"] = {
+    NUM["appendixA_2"] = {
         "criterion_share_mixed_pct": fmt(100 * float((s_a.N_neg / s_a.N).iloc[0]), 1),
         "criterion_share_c4_val_pct": fmt(100 * f_val, 1),
         "always_empty_criterion_mixed": fmt(2 * float((s_a.N_neg / s_a.N).iloc[0]), 3),
+    }
+
+    # Section 4.3 (and the abstract): triage illustration
+    per_1000 = 1000 * float((s_c.N_pos / s_c.N).iloc[0])
+    NUM["section4_3"] = {
         "siim_lesion_per_1000": fmt(per_1000, 0),
-        "triage": {m: {"unflagged": fmt(per_1000 * s_c.at[m, "q"], 0),
+        "triage": {m: {"sensitivity_pct": fmt(100 * (1 - s_c.at[m, "q"]), 1),
+                       "specificity_pct": fmt(100 * (1 - s_c.at[m, "r0"]), 1),
+                       "unflagged": fmt(per_1000 * s_c.at[m, "q"], 0),
                        "false_flags": fmt((1000 - per_1000) * s_c.at[m, "r0"], 0)}
                    for m in ("UNet++", "EGE-UNet")},
     }
@@ -318,7 +327,7 @@ def table_b4(bootstrap: int) -> None:
         f"% Second distance column relative to first: x{out['ratio_P_over_X'][0]} to x{out['ratio_P_over_X'][1]}. "
         f"Pairs reordered: HD95 {out['hd95_pairs_reordered']}/28 (95% interval {out['hd95_reordered_frame_bootstrap_95pct']}), "
         f"Dice {out['dice_pairs_reordered']}/28. Kendall tau_b: HD95 {out['tau_b_hd95']}, Dice {out['tau_b_dice']}."))
-    # Section 4.6: resolution limits on the archive (Equation 4, d_max = 362 px)
+    # Section 3.6: resolution limits on the archive (Equation 4, d_max = 362 px)
     n, n_pos, n_neg = float(s.N.iloc[0]), float(s.N_pos.iloc[0]), float(s.N_neg.iloc[0])
     exact = 362 * (n_neg / n * s.r0 + n_pos / n * s.q)
     worst = 362 * (n_neg / n + n_pos / n * s.q)
@@ -398,7 +407,7 @@ def table_b5(B: int = 100000, seed: int = 20260727) -> None:
 
     def excludes_zero(arm, c):
         return res[(arm, c)][1] > 0 or res[(arm, c)][2] < 0
-    NUM["section4_5"] = {
+    NUM["section3_4_ablation"] = {
         "dice_full_improved": int(sum(excludes_zero(a, "dice_full_pp") and res[(a, "dice_full_pp")][0] > 0 for a in ARMS)),
         "boundary_full_improved": int(sum(
             (excludes_zero(a, "biou_full_pp") and res[(a, "biou_full_pp")][0] > 0)
@@ -493,7 +502,7 @@ def penalty_sweep(panels: dict) -> None:
 
 
 # ---------------------------------------------------------------------------
-# Section 4.6 and Appendix A.4: two published results
+# Appendix A.4 (summarised in Section 3.6): two published results
 # ---------------------------------------------------------------------------
 
 def published_scores() -> None:
@@ -518,18 +527,20 @@ def published_scores() -> None:
     gains = pd.read_csv(RESULTS / "published" / "endoked_hd_gains.csv")
     f = 125 / 1537                     # empty masks of the released annotation, q = 0
     limits = {256: f * float(np.hypot(256, 256)), 448: f * float(np.hypot(448, 448))}
-    NUM["section4_6"]["canet"] = {
-        "multiplier_range": [fmt((1 / (1 - e)).min(), 3), fmt((1 / (1 - e)).max(), 3)],
-        "cv_reported": fmt(cv(H).mean(), 3), "cv_rescaled": fmt(cv(resc).mean(), 3),
-        "cv_decreases_for_every_method": bool((cv(resc) < cv(H)).all()),
-        "loco_mae": [fmt(np.mean(err["naive"]), 3), fmt(np.mean(err["rescaled"]), 3)],
-        "loco_mae_c4": [fmt(np.mean(err_c4["naive"]), 3), fmt(np.mean(err_c4["rescaled"]), 3)],
-        "n_predictions": len(err["naive"]),
-    }
-    NUM["section4_6"]["endoked"] = {
-        "limits_px": {k: fmt(v, 1) for k, v in limits.items()},
-        "gains_below_limit": {k: int((gains.hd_gain < v).sum()) for k, v in limits.items()},
-        "n_gains": len(gains),
+    NUM["appendixA_4"] = {
+        "canet": {
+            "multiplier_range": [fmt((1 / (1 - e)).min(), 3), fmt((1 / (1 - e)).max(), 3)],
+            "cv_reported": fmt(cv(H).mean(), 3), "cv_rescaled": fmt(cv(resc).mean(), 3),
+            "cv_decreases_for_every_method": bool((cv(resc) < cv(H)).all()),
+            "loco_mae": [fmt(np.mean(err["naive"]), 3), fmt(np.mean(err["rescaled"]), 3)],
+            "loco_mae_c4": [fmt(np.mean(err_c4["naive"]), 3), fmt(np.mean(err_c4["rescaled"]), 3)],
+            "n_predictions": len(err["naive"]),
+        },
+        "endoked": {
+            "limits_px": {k: fmt(v, 1) for k, v in limits.items()},
+            "gains_below_limit": {k: int((gains.hd_gain < v).sum()) for k, v in limits.items()},
+            "n_gains": len(gains),
+        },
     }
 
 

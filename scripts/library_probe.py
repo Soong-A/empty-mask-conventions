@@ -19,7 +19,7 @@ installed together; probe each in its own environment:
 and verifies every executed cell of Table 3; surface-distance 0.1 is read from its
 source and is not executed. `monai-predictions` runs MONAI's HausdorffDistanceMetric
 (percentile 95) and DiceMetric with their default reductions on the stored
-probability maps (Section 4.3 and Appendix B.1).
+probability maps (Section 3.3 and Appendix B.1).
 """
 from __future__ import annotations
 
@@ -202,7 +202,7 @@ def cmd_check(directory: Path) -> int:
         bad += not ok
         print(f"  {'ok ' if ok else 'MISMATCH'} {stem:<20} {metric:<28} {case:<11} {got}")
     monai = sorted(k for k in files if k.startswith("monai-"))
-    for other in monai[1:]:   # Section 4.1: the empty-case behaviour is unchanged across MONAI versions
+    for other in monai[1:]:   # Section 3.1: the empty-case behaviour is unchanged across MONAI versions
         same = all(outcome(files[monai[0]]["results"][m][c]) == outcome(files[other]["results"][m][c])
                    for m in files[monai[0]]["results"] for c in CASES)
         bad += not same

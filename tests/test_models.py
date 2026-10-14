@@ -1,4 +1,4 @@
-"""PRISM parameter counts printed in Section 3.2 and Appendix A."""
+"""PRISM parameter counts printed in Section 2.2 and Appendix A."""
 from emc import models
 from emc.models.prism import count_parameters, dormant_parameters
 

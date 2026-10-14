@@ -5,8 +5,8 @@
 Code and data for
 
 > Yurong Song, Zhewei Chen, Jianbin Wu. **When empty predictions win: Empty-mask conventions alter
-> model rankings and evaluated subsets in medical image segmentation.** Submitted to *Artificial
-> Intelligence in Medicine*.
+> model rankings and evaluated subsets in medical image segmentation.** Submitted to *Computer
+> Methods and Programs in Biomedicine*.
 
 Per-image metrics such as Dice, Boundary IoU and HD95 are undefined when the reference mask, the
 prediction, or both are empty, and every evaluation code resolves this with some convention. The
@@ -62,7 +62,7 @@ scripts/
   make_figures.py             every figure (calls scripts/figures/*)
   audit.py                    literature audit, Table 5
   library_probe.py            metric-library probe, Table 3; MONAI on the stored predictions
-  count_parameters.py         parameter counts (Section 3.2, Appendix A.2)
+  count_parameters.py         parameter counts (Section 2.2, Appendix A.2)
   check_data.py               empty annotations in the released data (Appendix C.2, Table C.1)
   prepare_polypgen.py         PolypGen partitions from the public release
   prepare_siim.py             SIIM-ACR partition from the Kaggle release
@@ -141,9 +141,9 @@ All commands are `python -m scripts.<...>`. "records" means only the released fi
 | Table B.4 (1537-frame archive) | `make_tables` | records | `tables/tableB4_archive.tex` |
 | Table B.5 (PRISM ablation) | `make_tables` | results/ablation | `tables/tableB5_ablation.tex` |
 | Table C.1 (empty masks by centre) | `make_tables`; from the raw release: `check_data polypgen` | splits / raw data | `tables/tableC1_empty_by_centre.tex` |
-| In-text numbers of Sections 4.2-4.6, 5.3 and Appendices B-D | `make_tables` | records, results | `numbers.json` |
-| MONAI on the stored predictions (Sections 4.2-4.3, Appendix B.1) | `library_probe monai-predictions` | predictions | `library_probe/monai_on_predictions.csv` |
-| Parameter counts (Section 3.2, Appendix A.2) | `count_parameters` | | `parameters.csv` |
+| In-text numbers of Sections 3.2-3.6, 4.3 and Appendices A.2, A.4, B-D | `make_tables` | records, results | `numbers.json` |
+| MONAI on the stored predictions (Sections 3.2-3.3, Appendix B.1) | `library_probe monai-predictions` | predictions | `library_probe/monai_on_predictions.csv` |
+| Parameter counts (Section 2.2, Appendix A.2) | `count_parameters` | | `parameters.csv` |
 | Figure 1 | `figures.teaser` | MONAI 1.5.2 | `figures/fig_teaser.png` |
 | Figure 2 | `figures.related_work` | | `figures/fig_related.pdf` |
 | Figure 3 | `figures.composition` | records | `figures/fig_composition.pdf` |
@@ -430,7 +430,7 @@ follows the LB-UNet release.
   author  = {Song, Yurong and Chen, Zhewei and Wu, Jianbin},
   title   = {When empty predictions win: Empty-mask conventions alter model rankings and
              evaluated subsets in medical image segmentation},
-  journal = {Artificial Intelligence in Medicine},
+  journal = {Computer Methods and Programs in Biomedicine},
   note    = {Submitted},
   year    = {2026}
 }

@@ -1,4 +1,4 @@
-"""Literature audit of PolypGen studies (Section 3.5, Table 5, Appendix A.3).
+"""Literature audit of PolypGen studies (Sections 2.5 and 3.5, Table 5, Appendix A.3).
 
     python -m scripts.audit                 # draw check + Table 5 from the released files
     python -m scripts.audit frame --out DIR # rebuild the sampling frame (network access)

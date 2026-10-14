@@ -1,4 +1,4 @@
-"""Training objectives: each architecture keeps its established objective (Section 3.2).
+"""Training objectives: each architecture keeps its established objective (Section 2.2).
 
 ``build_objective(model, protocol, batch_dice)`` returns a module called as
 ``objective(output, target, points)`` with the raw model output. The objectives

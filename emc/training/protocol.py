@@ -1,4 +1,4 @@
-"""The training protocols of the paper (Section 3.2, Appendix A.2).
+"""The training protocols of the paper (Section 2.2, Appendix A.2).
 
 Shared by all runs: random initialisation, 256 x 256 input, AdamW (lr 1e-3,
 weight decay 0.03), batch size 8, cosine annealing to 1e-5, exponential moving

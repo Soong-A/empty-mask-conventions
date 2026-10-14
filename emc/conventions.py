@@ -1,6 +1,6 @@
 """Empty-mask conventions as functions of a set of per-image records.
 
-Notation follows Section 3.3 of the paper. For one model run (model, seed):
+Notation follows Section 2.4 of the paper. For one model run (model, seed):
 
     N, N+, N0        all images, non-empty references, empty references
     q                fraction of non-empty references with an empty prediction
@@ -96,7 +96,7 @@ def summarise(runs: pd.DataFrame, models: Sequence[str] | None = None) -> pd.Dat
 
 
 # ---------------------------------------------------------------------------
-# Identities of Section 3.3, checked numerically against the aggregates
+# Identities of Section 2.4, checked numerically against the aggregates
 # ---------------------------------------------------------------------------
 
 def identity_residuals(m: dict) -> dict:
