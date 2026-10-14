@@ -1,4 +1,4 @@
-"""Figure 8: empty-mask arithmetic in two published results.
+"""Figure 7: empty-mask arithmetic in two published results.
 
 (a) CANet per-centre boundary distances of ten methods (results/published/canet_table3.csv):
     mean as reported (circle), after the family-Z rescaling N_c / N_c^+ (diamond),

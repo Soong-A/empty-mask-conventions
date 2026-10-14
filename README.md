@@ -121,7 +121,7 @@ python -m scripts.audit            # Table 5 (literature audit)                 
 python -m scripts.bootstrap_reversals  # Table B.6, bootstrap of the rank reversals      (~15 s)
 python -m scripts.library_probe check   # Table 3 from the released probe files
 python -m scripts.count_parameters      # parameter counts
-python -m scripts.make_figures     # Figures 1, 2, 3, 4(b), 6, 7, 8, C.1, D.1              (~75 s)
+python -m scripts.make_figures     # Figures 1, 2, 3, 4(b), 6, 7, B.2, C.1, D.1            (~75 s)
 python -m pytest tests             # compare everything with the paper
 ```
 
@@ -161,9 +161,9 @@ All commands are `python -m scripts.<...>`. "records" means only the released fi
 | Figure 3 | `figures.composition` | records | `figures/fig_composition.pdf` |
 | Figure 4(a), Figure 5 | `figures.frames` | images, predictions | `figures/fig_compare.png`, `fig_misses_rules.png` |
 | Figure 4(b) | `figures.rank_flip` | records | `figures/fig_compare_rank.pdf` |
-| Figure 6 | `figures.ablation` | results/ablation | `figures/fig_ablation.pdf` |
-| Figure 7 | `figures.resolution` | records | `figures/fig_bands.pdf` |
-| Figure 8 | `figures.published` | results/published | `figures/fig_published.pdf` |
+| Figure B.2 | `figures.ablation` | results/ablation | `figures/fig_ablation.pdf` |
+| Figure 6 | `figures.resolution` | records | `figures/fig_bands.pdf` |
+| Figure 7 | `figures.published` | results/published | `figures/fig_published.pdf` |
 | Figure B.1 | `figures.failures` | records, images | `figures/fig_analysis_8seed.pdf` |
 | Figure C.1 | `figures.penalty_sweep` | records | `figures/fig_convention_sensitivity.pdf` |
 | Figure D.1 | `figures.collapse` | results/stress_test | `figures/fig_objective_collapse.pdf` |
@@ -191,9 +191,9 @@ and each convention decides what to substitute (`emc/conventions.py`). Load the 
 
 | Partition | Frames | Runs | Paper |
 |---|---|---|---|
-| `polypgen_mixed` | 307 (276 lesion-bearing, 31 empty) | 8 models x 3 seeds | Table 4 Panel A, Figures 3-5, 7, C.1 |
+| `polypgen_mixed` | 307 (276 lesion-bearing, 31 empty) | 8 models x 3 seeds | Table 4 Panel A, Figures 3-6, C.1 |
 | `polypgen_c4` | 227 (centre C4 held out; 81 empty) | 8 x 3 | Table 4 Panel B, Tables B.2-B.3 |
-| `polypgen_archive` | 1537 (all frames; the mixed-partition checkpoints) | 8 x 3 | Table B.4, Figure 7 |
+| `polypgen_archive` | 1537 (all frames; the mixed-partition checkpoints) | 8 x 3 | Table B.4, Figure 6 |
 | `siim` | 2135 (SIIM-ACR held-out test) | 8 x 3 | Table 4 Panel C, Table B.1 |
 | `polypgen_ablation` | 307 (= `polypgen_mixed`) | 5 PRISM arms x 8 seeds | Appendix B.4, Figure B.1 |
 
@@ -398,10 +398,10 @@ python -m scripts.library_probe monai-predictions --pred-root predictions/polypg
 
 | Path | Content |
 |---|---|
-| `results/ablation/per_seed.csv` | PRISM ablation, 5 arms x 8 seeds: full-set Dice, Dice on lesion-bearing frames, r0 (from the per-image evaluation), full-set B-IoU and HD95 as logged by the training-time evaluation (2 decimals); input of Table B.5 and Figure 6 |
+| `results/ablation/per_seed.csv` | PRISM ablation, 5 arms x 8 seeds: full-set Dice, Dice on lesion-bearing frames, r0 (from the per-image evaluation), full-set B-IoU and HD95 as logged by the training-time evaluation (2 decimals); input of Table B.5 and Figure B.2 |
 | `results/audit/` | sampling frame (Semantic Scholar, retrieved 2026-08-02), assisted first-pass coding, checked coding sheet with quotations |
 | `results/library_probe/` | probe output per library version; MONAI on the stored predictions |
-| `results/published/` | numbers transcribed from CANet (Table 3) and EndoKED (Hausdorff-distance gains) for Figure 8 |
+| `results/published/` | numbers transcribed from CANet (Table 3) and EndoKED (Hausdorff-distance gains) for Figure 7 |
 | `results/stress_test/` | validation curves and configuration of the four stress-test runs (Figure D.1) |
 | `results/data_checks/` | SIIM-ACR resize-erasure counts (Appendix C.2) |
 | `results/provenance/checkpoints.csv` | checkpoint provenance (Section 6.5) |

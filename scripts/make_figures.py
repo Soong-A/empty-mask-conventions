@@ -22,10 +22,10 @@ FIGURES = [
     ("3", "composition", None),
     ("4(a)", "frames", "data+pred"),            # also Figure 5
     ("4(b)", "rank_flip", None),
-    ("6", "ablation", None),
-    ("7", "resolution", None),
-    ("8", "published", None),
+    ("6", "resolution", None),
+    ("7", "published", None),
     ("B.1", "failures", "data"),
+    ("B.2", "ablation", None),
     ("C.1", "penalty_sweep", None),
     ("D.1", "collapse", None),
 ]

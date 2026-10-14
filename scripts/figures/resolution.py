@@ -1,4 +1,4 @@
-"""Figure 7: range of a published HD95 when the empty-mask rule is not reported.
+"""Figure 6: range of a published HD95 when the empty-mask rule is not reported.
 
 (a) Worst-case resolution limit R_max = d_max (N0/N + N+/N q) of Equation (4),
     d_max = 362 px, for q = 0 and for the highest miss rate on the 1537-frame archive.

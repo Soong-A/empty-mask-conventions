@@ -1,4 +1,4 @@
-"""Figure 6: source of the PRISM ablation gains, full set versus non-empty references.
+"""Figure B.2: source of the PRISM ablation gains, full set versus non-empty references.
 
 Plots the Dice and HD95 rows of Table B.5 (computed by scripts.make_tables).
 
