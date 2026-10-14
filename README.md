@@ -1,6 +1,7 @@
 # When empty predictions win: empty-mask conventions in medical image segmentation
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23373345.svg)](https://doi.org/10.5281/zenodo.23373345)
+[![PyPI](https://img.shields.io/pypi/v/empty-mask-conventions.svg)](https://pypi.org/project/empty-mask-conventions/)
 
 Code and data for
 
@@ -95,10 +96,11 @@ pip install -r requirements.txt
 ```
 
 `requirements.txt` pins the versions with which every command in this README was last run (Python 3.12,
-CPU PyTorch). The scorer of Section 5.4 also installs on its own, without PyTorch:
+CPU PyTorch). The scorer of Section 5.4 also installs on its own from PyPI, without PyTorch
+(release 1.3.0 is the code of v1.3 archived on Zenodo):
 
 ```bash
-pip install "git+https://github.com/Soong-A/empty-mask-conventions@v1.3"
+pip install empty-mask-conventions
 ```
 
 Notes:
