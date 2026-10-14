@@ -1,6 +1,6 @@
 # When empty predictions win: empty-mask conventions in medical image segmentation
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23366704.svg)](https://doi.org/10.5281/zenodo.23366704)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23296309.svg)](https://doi.org/10.5281/zenodo.23296309)
 
 Code and data for
 
@@ -98,7 +98,7 @@ pip install -r requirements.txt
 CPU PyTorch). The scorer of Section 5.4 also installs on its own, without PyTorch:
 
 ```bash
-pip install "git+https://github.com/Soong-A/empty-mask-conventions@v1.2"
+pip install "git+https://github.com/Soong-A/empty-mask-conventions@v1.3"
 ```
 
 Notes:
@@ -477,11 +477,11 @@ follows the LB-UNet release.
 }
 ```
 
-The version used in the paper is archived on Zenodo as release v1.2,
-[doi:10.5281/zenodo.23366704](https://doi.org/10.5281/zenodo.23366704). The concept DOI
+The version used in the paper is release v1.3, archived on Zenodo. The concept DOI
 [10.5281/zenodo.23296309](https://doi.org/10.5281/zenodo.23296309) always resolves to the latest version;
-releases v1.0 and v1.1 are [doi:10.5281/zenodo.23296310](https://doi.org/10.5281/zenodo.23296310) and
-[doi:10.5281/zenodo.23365844](https://doi.org/10.5281/zenodo.23365844).
+releases v1.0, v1.1 and v1.2 are [doi:10.5281/zenodo.23296310](https://doi.org/10.5281/zenodo.23296310),
+[doi:10.5281/zenodo.23365844](https://doi.org/10.5281/zenodo.23365844) and
+[doi:10.5281/zenodo.23366704](https://doi.org/10.5281/zenodo.23366704).
 
 ```bibtex
 @software{song2026emptymaskcode,
@@ -489,10 +489,10 @@ releases v1.0 and v1.1 are [doi:10.5281/zenodo.23296310](https://doi.org/10.5281
   title     = {empty-mask-conventions: code and per-image records for
                ``When empty predictions win''},
   publisher = {Zenodo},
-  version   = {v1.2},
+  version   = {v1.3},
   year      = {2026},
-  doi       = {10.5281/zenodo.23366704},
-  url       = {https://doi.org/10.5281/zenodo.23366704}
+  doi       = {10.5281/zenodo.23296309},
+  url       = {https://doi.org/10.5281/zenodo.23296309}
 }
 ```
 
