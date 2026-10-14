@@ -70,7 +70,7 @@ def test_train_predict_records(key, dataset, tmp_path):
 @pytest.mark.parametrize("script", [
     "scripts.make_tables", "scripts.audit", "scripts.train", "scripts.predict", "scripts.make_records",
     "scripts.prepare_polypgen", "scripts.prepare_siim", "scripts.lbunet_points", "scripts.library_probe",
-    "scripts.check_data", "scripts.count_parameters",
+    "scripts.check_data", "scripts.count_parameters", "scripts.bootstrap_reversals",
     "scripts.figures.teaser", "scripts.figures.related_work", "scripts.figures.composition",
     "scripts.figures.rank_flip", "scripts.figures.frames", "scripts.figures.ablation",
     "scripts.figures.resolution", "scripts.figures.published", "scripts.figures.penalty_sweep",

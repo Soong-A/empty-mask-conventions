@@ -1,7 +1,8 @@
 """Compare every regenerated table and in-text statistic with the submitted paper.
 
-Run ``python -m scripts.make_tables`` (and ``python -m scripts.audit`` for Table 5)
-first, then ``python -m pytest tests``. ``paper_tables.json`` holds the cells of
+Run ``python -m scripts.make_tables`` (and ``python -m scripts.audit`` for Table 5,
+``python -m scripts.bootstrap_reversals`` for Table B.6) first, then
+``python -m pytest tests``. ``paper_tables.json`` holds the cells of
 the paper's tables exactly as typeset; the expected in-text numbers below are
 copied from the text with their section.
 """
@@ -181,3 +182,47 @@ def numbers():
 @pytest.mark.parametrize("path", sorted(EXPECTED))
 def test_in_text_number(numbers, path):
     assert lookup(numbers, path) == EXPECTED[path]
+
+
+# Image-level bootstrap of the rank reversals: (path under "paper" in
+# outputs/bootstrap_reversals.json, value printed in the paper)
+EXPECTED_BOOTSTRAP = {
+    # Section 3.2
+    "section3_2/siim_dice_reversals_ci95": ["7", "19"],
+    "section3_2/siim_dice_exceeds_A_and_B_above_0.999": True,
+    "section3_2/siim_hd95_reversals_ci95": ["1", "7"],
+    # Section 3.3
+    "section3_3/corr_deletion_hd95_vs_scored_ci95": ["0.84", "0.98"],
+    "section3_3/unetpp_unettiny_two_best_deletion_hd95_pct": "98",
+    # Section 3.4
+    "section3_4/always_empty_beats_all_in_every_replicate": True,
+    "section3_4/always_empty_margin_ci95": ["0.047", "0.079"],
+    # Appendix B.6
+    "appendixB_6/siim_dice_never_zero": True,
+    "appendixB_6/p_C_exceeds_A_and_B_hd95": "0.75",
+    "appendixB_6/siim_dice_recurring_90pct": 6,
+    "appendixB_6/siim_dice_recurring_above_99.6pct": 4,
+    "appendixB_6/siim_dice_other_recurrence_pct": ["52", "71"],
+    "appendixB_6/siim_dice_other_c0_gap_below_0.001": True,
+    "appendixB_6/panelA_dice_recurrence_pct": {"LB-UNet / PRISM": "55", "LB-UNet / UNeXt-S": "50"},
+    "appendixB_6/panelB_dice_recurrence_pct": {"MobileUNet / UNet-Tiny": "99", "PRISM / UNeXt-S": "76",
+                                               "EGE-UNet / LB-UNet": "21"},
+    "appendixB_6/siim_hd95_recurrence_pct": ["54", "83"],
+    "appendixB_6/panelAB_hd95_recurrence_pct": ["57", "79"],
+    "appendixB_6/max_recurrence_not_reversed_pct": "49",       # "up to about half"
+    "appendixB_6/unetpp_unettiny_two_best_deletion_hd95_pct": "98.2",
+    "appendixB_6/corr_deletion_hd95_vs_scored_median": "0.93",
+}
+
+
+@pytest.fixture(scope="module")
+def bootstrap():
+    path = REPO / "outputs" / "bootstrap_reversals.json"
+    if not path.exists():
+        pytest.skip("outputs/bootstrap_reversals.json not generated; run python -m scripts.bootstrap_reversals")
+    return json.loads(path.read_text(encoding="utf-8"))["paper"]
+
+
+@pytest.mark.parametrize("path", sorted(EXPECTED_BOOTSTRAP))
+def test_bootstrap_number(bootstrap, path):
+    assert lookup(bootstrap, path) == EXPECTED_BOOTSTRAP[path]

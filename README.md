@@ -1,6 +1,6 @@
 # When empty predictions win: empty-mask conventions in medical image segmentation
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23365844.svg)](https://doi.org/10.5281/zenodo.23365844)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23296309.svg)](https://doi.org/10.5281/zenodo.23296309)
 
 Code and data for
 
@@ -62,6 +62,7 @@ emc/                          the library ("empty-mask conventions")
   training/                   protocols, transforms, losses, training engine, datasets
 scripts/
   make_tables.py              Tables 1, 4, B.1-B.5, C.1 + every in-text number (outputs/numbers.json)
+  bootstrap_reversals.py      image-level bootstrap of the rank reversals, Table B.6
   make_figures.py             every figure (calls scripts/figures/*)
   audit.py                    literature audit, Table 5
   library_probe.py            metric-library probe, Table 3; MONAI on the stored predictions
@@ -97,7 +98,7 @@ pip install -r requirements.txt
 CPU PyTorch). The scorer of Section 5.4 also installs on its own, without PyTorch:
 
 ```bash
-pip install "git+https://github.com/Soong-A/empty-mask-conventions@v1.1"
+pip install "git+https://github.com/Soong-A/empty-mask-conventions@v1.2"
 ```
 
 Notes:
@@ -117,6 +118,7 @@ No dataset, checkpoint or GPU is needed for this step.
 ```bash
 python -m scripts.make_tables      # Tables 1, 4, B.1-B.5, C.1 and outputs/numbers.json   (~10 s)
 python -m scripts.audit            # Table 5 (literature audit)                            (~1 s)
+python -m scripts.bootstrap_reversals  # Table B.6, bootstrap of the rank reversals      (~15 s)
 python -m scripts.library_probe check   # Table 3 from the released probe files
 python -m scripts.count_parameters      # parameter counts
 python -m scripts.make_figures     # Figures 1, 2, 3, 4(b), 6, 7, 8, C.1, D.1              (~75 s)
@@ -149,6 +151,7 @@ All commands are `python -m scripts.<...>`. "records" means only the released fi
 | Tables B.2, B.3 (centre-held-out partition) | `make_tables` | records | `tables/tableB2_c4_overlap.tex`, `tableB3_c4_distance.tex` |
 | Table B.4 (1537-frame archive) | `make_tables` | records | `tables/tableB4_archive.tex` |
 | Table B.5 (PRISM ablation) | `make_tables` | results/ablation | `tables/tableB5_ablation.tex` |
+| Table B.6 and the bootstrap numbers of Sections 3.2-3.4 and Appendix B.6 (10,000 image resamples, seed 20261014) | `bootstrap_reversals` | records | `tables/tableB6_bootstrap.tex`, `bootstrap_reversals.json` |
 | Table C.1 (empty masks by centre) | `make_tables`; from the raw release: `check_data polypgen` | splits / raw data | `tables/tableC1_empty_by_centre.tex` |
 | In-text numbers of Sections 3.2-3.6, 4.3 and Appendices A.2, A.4, B-D | `make_tables` | records, results | `numbers.json` |
 | MONAI on the stored predictions (Sections 3.2-3.3, Appendix B.1) | `library_probe monai-predictions` | predictions | `library_probe/monai_on_predictions.csv` |
@@ -408,10 +411,11 @@ python -m scripts.library_probe monai-predictions --pred-root predictions/polypg
 ```bash
 python -m scripts.make_tables     # generate first
 python -m scripts.audit
+python -m scripts.bootstrap_reversals
 python -m pytest tests
 ```
 
-* `tests/test_paper.py`: every cell of Tables 1, 4, 5, B.1-B.5 and C.1 equals the typeset cell
+* `tests/test_paper.py`: every cell of Tables 1, 4, 5, B.1-B.6 and C.1 equals the typeset cell
   (`tests/paper_tables.json`), and every in-text number checked equals the printed one.
 * `tests/test_records.py`: the records load and are internally consistent. The ablation records
   reproduce `results/ablation/per_seed.csv`. The Figure B.1 counts (52 failures, 32 with low boundary
@@ -473,10 +477,10 @@ follows the LB-UNet release.
 }
 ```
 
-The version used in the paper is archived on Zenodo as release v1.1,
-[doi:10.5281/zenodo.23365844](https://doi.org/10.5281/zenodo.23365844). The concept DOI
+The version used in the paper is release v1.2, archived on Zenodo. The concept DOI
 [10.5281/zenodo.23296309](https://doi.org/10.5281/zenodo.23296309) always resolves to the latest version;
-release v1.0 is [doi:10.5281/zenodo.23296310](https://doi.org/10.5281/zenodo.23296310).
+releases v1.0 and v1.1 are [doi:10.5281/zenodo.23296310](https://doi.org/10.5281/zenodo.23296310) and
+[doi:10.5281/zenodo.23365844](https://doi.org/10.5281/zenodo.23365844).
 
 ```bibtex
 @software{song2026emptymaskcode,
@@ -484,10 +488,10 @@ release v1.0 is [doi:10.5281/zenodo.23296310](https://doi.org/10.5281/zenodo.232
   title     = {empty-mask-conventions: code and per-image records for
                ``When empty predictions win''},
   publisher = {Zenodo},
-  version   = {v1.1},
+  version   = {v1.2},
   year      = {2026},
-  doi       = {10.5281/zenodo.23365844},
-  url       = {https://doi.org/10.5281/zenodo.23365844}
+  doi       = {10.5281/zenodo.23296309},
+  url       = {https://doi.org/10.5281/zenodo.23296309}
 }
 ```
 
