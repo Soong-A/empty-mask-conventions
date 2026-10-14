@@ -74,6 +74,6 @@ def test_train_predict_records(key, dataset, tmp_path):
     "scripts.figures.teaser", "scripts.figures.related_work", "scripts.figures.composition",
     "scripts.figures.rank_flip", "scripts.figures.frames", "scripts.figures.ablation",
     "scripts.figures.resolution", "scripts.figures.published", "scripts.figures.penalty_sweep",
-    "scripts.figures.collapse", "scripts.figures.failures"])
+    "scripts.figures.collapse", "scripts.figures.failures", "emc.score"])
 def test_help(script):
     run(script, "--help")

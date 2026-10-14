@@ -34,8 +34,13 @@ DIAGONAL = float(np.hypot(256, 256))      # 362.04 px, image diagonal at 256 x 2
 PENALTIES = {"P128": 128.0, "P256": 256.0, "P362": DIAGONAL}
 
 
-def run_metrics(rows: pd.DataFrame, d_pos: float = DIAGONAL) -> dict:
-    """Every count, rate and convention for the records of ONE model run."""
+def run_metrics(rows: pd.DataFrame, d_pos: float = DIAGONAL, penalties: dict | None = None) -> dict:
+    """Every count, rate and convention for the records of ONE model run.
+
+    ``penalties`` maps a name to a one-sided-empty distance d of family P
+    (default ``PENALTIES``, for 256 x 256 images); ``d_pos`` is the penalty of
+    ``hd95_pos``, the distance mean over non-empty references.
+    """
     gt = rows["gt_area"].to_numpy() > 0
     pr = rows["pred_area"].to_numpy() > 0
     inter = rows["inter"].to_numpy(float)
@@ -73,7 +78,7 @@ def run_metrics(rows: pd.DataFrame, d_pos: float = DIAGONAL) -> dict:
     for c in (0, 1):
         out[f"dice_c{c}"] = float(np.where(both_empty, c, np.nan_to_num(dice)).mean())
         out[f"biou_c{c}"] = float(np.where(bu == 0, c, np.nan_to_num(biou)).mean())
-    for name, d in PENALTIES.items():
+    for name, d in (PENALTIES if penalties is None else penalties).items():
         out[f"hd95_{name}"] = (hd_sum + n_1s * d) / N
     return out
 

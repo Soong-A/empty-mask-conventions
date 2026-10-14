@@ -65,7 +65,7 @@ PARTITIONS = {
 # ---------------------------------------------------------------------------
 # Two boundary definitions were used when the released records were computed.
 #
-#   "mask"     The training-time metric (emc/training/metrics.py). HD95 pools the
+#   "mask"     The metric logged during training. HD95 pools the
 #              distances from each mask's surface pixels to the other MASK; the
 #              boundary band is dilate(3) - erode(3), a 7-pixel band across the
 #              contour. Used for the PolypGen mixed partition and SIIM-ACR.
@@ -118,15 +118,16 @@ def hd95_det(pred: np.ndarray, gt: np.ndarray, geometry: str = "mask") -> Option
 
 def boundary_band(mask: np.ndarray, geometry: str = "mask") -> np.ndarray:
     """Boundary band used by Boundary IoU (see the geometry note above)."""
+    from scipy import ndimage
     if not mask.any():
         return np.zeros_like(mask, dtype=bool)
     if geometry == "mask":
-        import cv2
-        kernel = np.ones((7, 7), np.uint8)
-        m = mask.astype(np.uint8)
-        return (cv2.dilate(m, kernel) - cv2.erode(m, kernel)) > 0
+        # cv2.dilate - cv2.erode with a 7 x 7 kernel; OpenCV's default border leaves
+        # the image edge out of both, hence border_value=1 for the erosion
+        kernel = np.ones((7, 7), bool)
+        return (ndimage.binary_dilation(mask, kernel, border_value=0)
+                & ~ndimage.binary_erosion(mask, kernel, border_value=1))
     if geometry == "surface":
-        from scipy import ndimage
         width = max(1, int(round(0.02 * float(np.hypot(*mask.shape)))))
         eroded = ndimage.binary_erosion(mask, structure=np.ones((3, 3), np.uint8),
                                         iterations=width, border_value=0)

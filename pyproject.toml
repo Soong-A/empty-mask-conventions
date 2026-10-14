@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "empty-mask-conventions"
+version = "1.1.0"
+description = "Score segmentation masks under every empty-mask convention (Dice, Boundary IoU, HD95)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Yurong Song"},
+    {name = "Zhewei Chen"},
+    {name = "Jianbin Wu"},
+]
+keywords = ["medical image segmentation", "evaluation metrics", "empty masks",
+            "Dice coefficient", "Hausdorff distance", "reproducibility"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Topic :: Scientific/Engineering :: Image Processing",
+]
+# The scorer (emc.score, emc.records, emc.conventions) needs only these.
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "pandas>=2.0",
+    "Pillow>=9.0",
+]
+
+[project.optional-dependencies]
+# Training and inference (emc.models, emc.training); see requirements.txt for
+# the exact versions behind the paper.
+train = ["torch>=2.1", "torchvision>=0.16", "timm>=1.0"]
+test = ["pytest>=8"]
+
+[project.scripts]
+emc-score = "emc.score:main"
+
+[project.urls]
+Repository = "https://github.com/Soong-A/empty-mask-conventions"
+Archive = "https://doi.org/10.5281/zenodo.23296309"
+
+[tool.setuptools.packages.find]
+include = ["emc*"]

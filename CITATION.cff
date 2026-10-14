@@ -3,9 +3,9 @@ message: "If you use this code or the per-image records, please cite the paper b
 title: "empty-mask-conventions: code and per-image records for 'When empty predictions win'"
 type: software
 license: MIT
-version: v1.0
-doi: 10.5281/zenodo.23296310
-date-released: 2026-10-11
+version: v1.1
+doi: 10.5281/zenodo.23296309
+date-released: 2026-10-14
 repository-code: "https://github.com/Soong-A/empty-mask-conventions"
 authors:
   - family-names: Song

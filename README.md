@@ -1,6 +1,6 @@
 # When empty predictions win: empty-mask conventions in medical image segmentation
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23296310.svg)](https://doi.org/10.5281/zenodo.23296310)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23296309.svg)](https://doi.org/10.5281/zenodo.23296309)
 
 Code and data for
 
@@ -22,7 +22,9 @@ This repository releases everything behind the numbers in the paper:
 * the full chain behind the records: **data preparation, model code, training, inference and
   record extraction**;
 * the **metric-library probe**, the **literature-audit** sheets, the **split manifests** and the
-  **provenance** of every checkpoint.
+  **provenance** of every checkpoint;
+* **`emc-score`**, a small pip-installable tool that scores your own masks under every convention
+  (Section 5.4).
 
 Every table and figure can be regenerated on a CPU in about two minutes from the released files.
 The test suite then checks each one against the submitted paper. Re-running the experiments
@@ -50,6 +52,7 @@ themselves needs the public datasets and a GPU.
 
 ```
 emc/                          the library ("empty-mask conventions")
+  score.py                    emc-score: every convention for your own masks (Section 5.4)
   records.py                  per-image record schema, partitions, HD95 / boundary band, I/O
   conventions.py              every convention (families P, Z, X, X'), ranks, Kendall tau_b, crossings
   stats.py                    Clopper-Pearson intervals, frame and paired-seed bootstrap
@@ -91,7 +94,13 @@ pip install -r requirements.txt
 ```
 
 `requirements.txt` pins the versions with which every command in this README was last run (Python 3.12,
-CPU PyTorch). Notes:
+CPU PyTorch). The scorer of Section 5.4 also installs on its own, without PyTorch:
+
+```bash
+pip install "git+https://github.com/Soong-A/empty-mask-conventions@v1.1"
+```
+
+Notes:
 
 * `matplotlib==3.10.8`: 3.11 changes text metrics and breaks the layout search of Figure 2.
 * `monai==1.5.2` is the version probed in the paper (Figure 1, Table 3). MONAI 1.6.1 gives identical
@@ -216,6 +225,32 @@ Two boundary definitions occur among the released records, as in the paper's eva
 Within a partition all models share one geometry, so rankings are unaffected. Recomputing Panel B
 with the `mask` geometry changes its HD95 values by about 0.5 px and no rank.
 `make_records --geometry` selects either one.
+
+### 5.4 Scoring your own masks
+
+`emc-score` writes the same convention-free records for your own predictions and applies every
+convention to them. It needs only NumPy, SciPy, pandas and Pillow (installation: Section 2).
+
+```bash
+emc-score --pred my_predictions/ --ref my_references/ --json summary.json --records-out records.csv
+```
+
+Files are paired by name without the extension (`.png`, `.jpg`, `.bmp`, `.tif` or `.npy`). An 8-bit
+image is divided by 255, so 0/255 masks and probability maps saved as images both work; predictions
+are thresholded at `--threshold` (0.5), references at 0.5. The summary reports N, N+ and N0, q and r0
+with the image-level sensitivity 1 - q and specificity 1 - r0, Dice and Boundary IoU on non-empty
+references and with c = 0 and 1, and HD95 under X (deletion), X′, Z and P(d). The default d is the
+image diagonal; `--penalty` sets others. `--geometry` and `--min-area` are those of Section 5.3 and
+Appendix C.1, and `emc-score --records records.csv --penalty 362` scores one run of existing records.
+From Python:
+
+```python
+from emc.score import score_pairs, summarise_records
+records = score_pairs({"case1": (prediction, reference)})      # arrays or file paths
+summary = summarise_records(records)                            # dict of every count, rate and convention
+```
+
+Inside this repository, `pip install -e .` makes the command available alongside the scripts.
 
 ## 6. Full pipeline
 
@@ -382,6 +417,8 @@ python -m pytest tests
   reproduce `results/ablation/per_seed.csv`. The Figure B.1 counts (52 failures, 32 with low boundary
   contrast) hold; this test is skipped without the prepared images.
 * `tests/test_models.py`: PRISM parameter counts.
+* `tests/test_score.py`: `emc-score` on the four empty-mask cases (hand-computed), on image folders
+  and on the released records, where it matches the code behind the paper.
 * `tests/test_pipeline.py`: every model trains for one epoch on synthetic data, predicts and yields
   records (CPU, about 4 minutes). Every script answers `--help`.
 
@@ -436,9 +473,9 @@ follows the LB-UNet release.
 }
 ```
 
-The version used in the paper is archived on Zenodo as release v1.0,
-[doi:10.5281/zenodo.23296310](https://doi.org/10.5281/zenodo.23296310). The concept DOI
-[10.5281/zenodo.23296309](https://doi.org/10.5281/zenodo.23296309) always resolves to the latest version.
+The version used in the paper is release v1.1, archived on Zenodo. The concept DOI
+[10.5281/zenodo.23296309](https://doi.org/10.5281/zenodo.23296309) always resolves to the latest version;
+release v1.0 is [doi:10.5281/zenodo.23296310](https://doi.org/10.5281/zenodo.23296310).
 
 ```bibtex
 @software{song2026emptymaskcode,
@@ -446,10 +483,10 @@ The version used in the paper is archived on Zenodo as release v1.0,
   title     = {empty-mask-conventions: code and per-image records for
                ``When empty predictions win''},
   publisher = {Zenodo},
-  version   = {v1.0},
+  version   = {v1.1},
   year      = {2026},
-  doi       = {10.5281/zenodo.23296310},
-  url       = {https://doi.org/10.5281/zenodo.23296310}
+  doi       = {10.5281/zenodo.23296309},
+  url       = {https://doi.org/10.5281/zenodo.23296309}
 }
 ```
 
