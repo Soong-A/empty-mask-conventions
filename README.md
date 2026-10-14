@@ -1,6 +1,6 @@
 # When empty predictions win: empty-mask conventions in medical image segmentation
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23296309.svg)](https://doi.org/10.5281/zenodo.23296309)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23373345.svg)](https://doi.org/10.5281/zenodo.23373345)
 
 Code and data for
 
@@ -477,7 +477,8 @@ follows the LB-UNet release.
 }
 ```
 
-The version used in the paper is release v1.3, archived on Zenodo. The concept DOI
+The version used in the paper is archived on Zenodo as release v1.3,
+[doi:10.5281/zenodo.23373345](https://doi.org/10.5281/zenodo.23373345). The concept DOI
 [10.5281/zenodo.23296309](https://doi.org/10.5281/zenodo.23296309) always resolves to the latest version;
 releases v1.0, v1.1 and v1.2 are [doi:10.5281/zenodo.23296310](https://doi.org/10.5281/zenodo.23296310),
 [doi:10.5281/zenodo.23365844](https://doi.org/10.5281/zenodo.23365844) and
@@ -491,8 +492,8 @@ releases v1.0, v1.1 and v1.2 are [doi:10.5281/zenodo.23296310](https://doi.org/1
   publisher = {Zenodo},
   version   = {v1.3},
   year      = {2026},
-  doi       = {10.5281/zenodo.23296309},
-  url       = {https://doi.org/10.5281/zenodo.23296309}
+  doi       = {10.5281/zenodo.23373345},
+  url       = {https://doi.org/10.5281/zenodo.23373345}
 }
 ```
 
